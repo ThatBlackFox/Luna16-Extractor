@@ -41,6 +41,10 @@ def extract_cube(mhd_file, world_coord, cube_size):
     extractor.SetIndex(start_index)
     extractor.SetSize(extract_size)
     extracted_cube = extractor.Execute(image)
+
+    extract_cube.CopyInformation(image)
+    extract_cube.SetSpacing(image.GetSpacing())
+    extract_cube.SetDirection(image.GetDirection())
     
     return extracted_cube, start_index, extract_size
 
@@ -70,6 +74,7 @@ def patch_cube(original_image, cube, start_index, output_file):
     orig_array[z_start:z_end, y_start:y_end, x_start:x_end] = cube_array
     
     result_image = sitk.GetImageFromArray(orig_array)
+    result_image.SetSpacing(original_image.GetSpacing())
     result_image.CopyInformation(original_image)
     
     sitk.WriteImage(result_image, output_file)
