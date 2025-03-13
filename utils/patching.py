@@ -2,9 +2,10 @@ import utils.image_handler as image_handler
 import SimpleITK as sitk
 import pandas as pd
 import os
-import tqdm
+from tqdm import tqdm
 
 def patching(data: dict):
+    print(data)
     DATA_DIR = data['data']
     CSV_PATH = data['csv']
     OUTPUT_PATH = data['out']
@@ -18,12 +19,11 @@ def patching(data: dict):
         for index, row in enumerate(coord_rows.iterrows()):
             x,y,z = row[1][1:4]
 
-            patch = image_handler.extract_cube(
+            patch, start_index, extract_size = image_handler.extract_cube(
                 os.path.join(DATA_DIR, file),
                 (x, y, z),
                 cube_dimensions
                 )
-            
             path = os.path.join(OUTPUT_PATH, file[:-4]+"_"+str(index)+".mhd")
             
             try:

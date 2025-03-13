@@ -47,10 +47,13 @@ def checks(args: list):
     check_args(args)
 
 def set_vars(args: list):
+    global DATA_DIR
+    global OUTPUT_DIR
+    global CSV_PATH
     DATA_DIR = args[args.index('-d')+1]
     OUTPUT_DIR = args[args.index('-o')+1]
     if "-c" in args:
-        CSV_PATH = args[args.index('-o')+1]
+        CSV_PATH = args[args.index('-c')+1]
     else:
         CSV_PATH = os.path.join(DATA_DIR, 'annotations.csv')
 
