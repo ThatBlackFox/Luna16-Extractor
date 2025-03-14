@@ -49,23 +49,28 @@ def patching(data: dict):
     
     parent_files = [file for file in os.listdir(DATA_DIR) if file[-4:] == '.mhd']
     seg_files = [file for file in os.listdir(REF_DIR) if file[-4:] == '.mhd']
-    for parent in tqdm(parent_files):
+    data = {}
 
+    for parent in tqdm(parent_files):
         parent_image = sitk.ReadImage(os.path.join(DATA_DIR, parent))
         blank_array = np.zeros_like(sitk.GetArrayFromImage(parent_image))
         blank_image = sitk.GetImageFromArray(blank_array)
         blank_image.CopyInformation(parent_image)
-
+        empty = True
         for index, child in enumerate(seg_files):
             if parent[:-4] not in child:
                 continue
+            empty = False
             cube = sitk.ReadImage(os.path.join(REF_DIR, child))
             start_index = meta[child[:-4]]['start_index']
             try:
                 blank_image = image_handler.patch_cube(blank_image, cube, start_index)
             except ValueError as e:
                 print(f"Warning: Node - {index} @ {parent} failed to patch")
-        
+        if empty:
+            data[parent] = True
         out_path = os.path.join(OUTPUT_DIR, parent)
         sitk.WriteImage(blank_image, f"{out_path}_seg.mhd")
+    with open(os.path.join(OUTPUT_DIR, "meta.json"), 'w') as f:
+        json.dump(data, f)
 
