@@ -3,6 +3,7 @@ import SimpleITK as sitk
 import pandas as pd
 import os
 from tqdm import tqdm
+import json
 
 def patching(data: dict):
     print(data)
@@ -12,7 +13,7 @@ def patching(data: dict):
     annots = pd.read_csv(CSV_PATH)
     files = [file for file in os.listdir(DATA_DIR) if file[-4:] == '.mhd']
     cube_dimensions = (50, 50, 50)
-
+    meta_data = {}
     for file in tqdm(files):
         coord_rows = annots[annots['seriesuid']==file[:-4]]
 
@@ -28,5 +29,9 @@ def patching(data: dict):
             
             try:
                 sitk.WriteImage(patch, path)
+                meta_data[file[:-4]+"_"+str(index)] = {"start_index": start_index, "extract_size": extract_size}
             except RuntimeError as e:
                 print(f"{file} - {index}: One patch failed")
+                print(e)
+    with open(OUTPUT_PATH+"meta.json") as f:
+        json.dump(meta_data, f)

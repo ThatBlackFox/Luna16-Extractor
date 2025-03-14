@@ -81,7 +81,7 @@ def load_image(path: os.PathLike):
 if __name__ == "__main__":
     mhd_path = "D:\\subset_0 Sample\\1.3.6.1.4.1.14519.5.2.1.6279.6001.141069661700670042960678408762.mhd"
     world_point = (-101.9672788, 248.736321, -739.8746836)  # Example world coordinate
-    cube_dimensions = (50, 50, int(50*0.57))  # Width, Depth, Shallow Height
+    cube_dimensions = (50, 50, 50)  # Width, Depth, Shallow Height
     output_mhd = "modified2.mhd"                   # Output file path.
 
     extracted_cube, start_idx, extract_sz = extract_cube(mhd_path, world_point, cube_dimensions)
