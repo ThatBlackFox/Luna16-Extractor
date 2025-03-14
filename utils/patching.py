@@ -48,7 +48,7 @@ def patching(data: dict):
         meta = json.load(f)
     
     parent_files = [file for file in os.listdir(DATA_DIR) if file[-4:] == '.mhd']
-    seg_files = [file for file in os.listdir(REF_DIR) if file[-4:] == '.mhd']
+    seg_files = [file for file in os.listdir(REF_DIR) if file[-7:] == '.nii.gz']
     data = {}
 
     for parent in tqdm(parent_files):
@@ -62,7 +62,7 @@ def patching(data: dict):
                 continue
             empty = False
             cube = sitk.ReadImage(os.path.join(REF_DIR, child))
-            start_index = meta[child[:-4]]['start_index']
+            start_index = meta[child[:-7]]['start_index']
             try:
                 blank_image = image_handler.patch_cube(blank_image, cube, start_index)
             except ValueError as e:
