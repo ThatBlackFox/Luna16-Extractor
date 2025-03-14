@@ -9,8 +9,8 @@
   -c    Path to the CSV file containing annotations (optional)<br>
 
 ## Example Usage:
-  python script.py -d /path/to/ct_scans -o /path/to/output <br>
-  python script.py -d /path/to/ct_scans -o /path/to/output -c annotations.csv
+  python dataset_maker.py -d /path/to/ct_scans -o /path/to/output <br>
+  python dataset_maker.py -d /path/to/ct_scans -o /path/to/output -c annotations.csv
 
 ## Description:
   This script extracts patches from chest CT scans stored in the specified directory.<br>
