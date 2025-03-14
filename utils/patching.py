@@ -1,11 +1,12 @@
 import utils.image_handler as image_handler
 import SimpleITK as sitk
 import pandas as pd
+import numpy as np
 import os
 from tqdm import tqdm
 import json
 
-def patching(data: dict):
+def extracting(data: dict):
     print(data)
     DATA_DIR = data['data']
     CSV_PATH = data['csv']
@@ -35,3 +36,33 @@ def patching(data: dict):
                 print(e)
     with open(os.path.join(OUTPUT_PATH, "meta.json"), 'w') as f:
         json.dump(meta_data, f)
+
+def patching(data: dict):
+    print(data)
+    DATA_DIR = data['data']
+    META_PATH = data['meta']
+    OUTPUT_DIR = data['out']
+    REF_DIR = data['ref']
+
+    with open(META_PATH, 'r') as f:
+        meta = json.load()
+    
+    parent_files = [file for file in os.listdir(DATA_DIR) if file[-4:] == '.mhd']
+    seg_files = [file for file in os.listdir(REF_DIR) if file[-4:] == '.mhd']
+    for parent in tqdm(parent_files):
+
+        parent = sitk.ReadImage(os.path.join(DATA_DIR, parent))
+        blank_array = np.zeros_like(sitk.GetArrayFromImage(parent).shape)
+        blank_image = sitk.GetImageFromArray(blank_array)
+        blank_image.CopyInformation(parent)
+
+        for child in seg_files:
+            if parent not in child:
+                continue
+            cube = sitk.ReadImage(os.path.join(REF_DIR, child))
+            start_index = meta[child]['start_index']
+            blank_image = image_handler.patch_cube(blank_image, cube, start_index)
+        
+        out_path = os.path.join(OUTPUT_DIR, parent)
+        sitk.WriteImage(blank_image, f"{out_path}_seg.mhd")
+

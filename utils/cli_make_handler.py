@@ -1,5 +1,5 @@
 import os
-from utils.patching import patching
+from utils.patching import extracting
 
 mandate = ['-d', '-o']
 DATA_DIR = ""
@@ -63,7 +63,7 @@ def start_patch():
         "out": OUTPUT_DIR,
         "csv": CSV_PATH
     }
-    patching(data)
+    extracting(data)
     
 
 def main(args: list):

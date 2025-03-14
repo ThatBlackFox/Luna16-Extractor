@@ -44,20 +44,19 @@ def extract_cube(mhd_file, world_coord, cube_size):
     
     return extracted_cube, start_index, extract_size
 
-def patch_cube(original_image, cube, start_index, output_file):
+def patch_cube(mutated_image, cube, start_index):
     """
     Creates a new image with a white (255) background and pastes the binary mask into its
     original location. The binary mask is assumed to contain values 0 and 1; it is inverted
     so that the foreground (mask==1) appears black (0) and the background (mask==0) remains white.
     
     Parameters:
-      original_image: SimpleITK.Image, the original image (used for dimensions/metadata).
+      mutated_image: SimpleITK.Image, the original image (used for dimensions/metadata).
       cube: SimpleITK.Image, the extracted cube (binary mask expected).
       start_index   : list of ints, the (x, y, z) index where the mask was extracted.
-      output_file   : str, path to save the modified image.
     """
 
-    orig_array = sitk.GetArrayFromImage(original_image)
+    orig_array = sitk.GetArrayFromImage(mutated_image)
     cube_array = sitk.GetArrayFromImage(cube)
     
     cube_depth, cube_height, cube_width = cube_array.shape
@@ -70,9 +69,10 @@ def patch_cube(original_image, cube, start_index, output_file):
     orig_array[z_start:z_end, y_start:y_end, x_start:x_end] = cube_array
     
     result_image = sitk.GetImageFromArray(orig_array)
-    result_image.CopyInformation(original_image)
+    result_image.CopyInformation(mutated_image)
     
-    sitk.WriteImage(result_image, output_file)
+    return result_image
+    # sitk.WriteImage(result_image, output_file)
 
 def load_image(path: os.PathLike):
     return sitk.ReadImage(path)
