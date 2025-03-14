@@ -56,12 +56,15 @@ def patching(data: dict):
         blank_image = sitk.GetImageFromArray(blank_array)
         blank_image.CopyInformation(parent_image)
 
-        for child in seg_files:
+        for index, child in enumerate(seg_files):
             if parent[:-4] not in child:
                 continue
             cube = sitk.ReadImage(os.path.join(REF_DIR, child))
             start_index = meta[child[:-4]]['start_index']
-            blank_image = image_handler.patch_cube(blank_image, cube, start_index)
+            try:
+                blank_image = image_handler.patch_cube(blank_image, cube, start_index)
+            except ValueError as e:
+                print(f"Warning: Node - {index} @ {parent} failed to patch")
         
         out_path = os.path.join(OUTPUT_DIR, parent)
         sitk.WriteImage(blank_image, f"{out_path}_seg.mhd")
