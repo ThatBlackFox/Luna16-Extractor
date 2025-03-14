@@ -11,7 +11,7 @@ def patching(data: dict):
     OUTPUT_PATH = data['out']
     annots = pd.read_csv(CSV_PATH)
     files = [file for file in os.listdir(DATA_DIR) if file[-4:] == '.mhd']
-    cube_dimensions = (50, 50, int(50*0.57))
+    cube_dimensions = (50, 50, 50)
 
     for file in tqdm(files):
         coord_rows = annots[annots['seriesuid']==file[:-4]]
