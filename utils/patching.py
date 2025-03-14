@@ -33,5 +33,5 @@ def patching(data: dict):
             except RuntimeError as e:
                 print(f"{file} - {index}: One patch failed")
                 print(e)
-    with open(OUTPUT_PATH+"meta.json") as f:
+    with open(os.path.join(OUTPUT_PATH, "meta.json"), 'w') as f:
         json.dump(meta_data, f)
