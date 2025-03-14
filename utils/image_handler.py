@@ -65,14 +65,15 @@ def patch_cube(mutated_image, cube, start_index):
     z_end = z_start + cube_depth
     y_end = y_start + cube_height
     x_end = x_start + cube_width
-    
+
     orig_array[z_start:z_end, y_start:y_end, x_start:x_end] = cube_array
+
+    
     
     result_image = sitk.GetImageFromArray(orig_array)
     result_image.CopyInformation(mutated_image)
     
     return result_image
-    # sitk.WriteImage(result_image, output_file)
 
 def load_image(path: os.PathLike):
     return sitk.ReadImage(path)
