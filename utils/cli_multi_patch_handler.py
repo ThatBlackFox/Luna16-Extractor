@@ -1,10 +1,10 @@
 import os
 from pathlib import Path
 
-mandate = ['-d', '-o', '-c']
+mandate = ['-d', '-o', '-r']
 DATA_DIR = ""
 OUTPUT_DIR = ""
-CSV_PATH = ""
+REF_DIR = ""
 
 def check_args(args: list):
     for arg in mandate:
@@ -65,8 +65,8 @@ def return_subsets():
 def generate_args(subsets):
     args = []
     for subset in subsets:
-        os.makedirs(os.path.join(DATA_DIR, subset), exist_ok=True)
-        sub_args = {"data": os.path.join(DATA_DIR, subset), "out": os.path.join(DATA_DIR, subset), "csv": CSV_PATH}
+        os.makedirs(os.path.join(OUTPUT_DIR, subset), exist_ok=True)
+        sub_args = {"data": os.path.join(DATA_DIR, subset), "out": os.path.join(OUTPUT_DIR, subset), "meta": os.path.join(DATA_DIR, "meta.json"), "ref": REF_DIR}
         args.append(sub_args)
     return args
     
