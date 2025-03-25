@@ -11,12 +11,16 @@ PATCH_MASK_DIR = os.path.join(MAIN_OUTPUT_DIR, 'patch_dataset')
 INFERENCE_DIR = os.path.join(MAIN_OUTPUT_DIR, 'infered_dataset')
 FULL_MASK_DIR = os.path.join(MAIN_OUTPUT_DIR, 'full_mask_dataset')
 META_PATH = os.path.join(PATCH_MASK_DIR, 'meta.json')
-XRAY_PATH = os.path.join(MAIN_OUTPUT_DIR, 'xray_dataset')
+XRAY_DIR = os.path.join(MAIN_OUTPUT_DIR, 'xray_dataset')
+
+paths = [PATCH_MASK_DIR, INFERENCE_DIR, FULL_MASK_DIR, XRAY_DIR]
+for path in paths:
+    os.makedirs(path, exist_ok=True)
 
 extractor = f"python dataset_maker.py -d {MAIN_DATA_DIR} -o {PATCH_MASK_DIR} -c {CSV_PATH}"
 infer = f"python data_inference_vnet.py -d {PATCH_MASK_DIR} -o {INFERENCE_DIR}"
 patcher = f"python dataset_patcher.py -d {MAIN_DATA_DIR} -o {FULL_MASK_DIR} -r {INFERENCE_DIR} -m {META_PATH}"
-drrer = f"python drrer.py -d {MAIN_DATA_DIR} -m {FULL_MASK_DIR} -o {XRAY_PATH} --meta {META_PATH}"
+drrer = f"python drrer.py -d {MAIN_DATA_DIR} -m {FULL_MASK_DIR} -o {XRAY_DIR} --meta {META_PATH}"
 
 print("Starting Pipeline")
 print("Starting Extraction")
