@@ -128,6 +128,7 @@ def convert_to_vnet(data: dict):
 
 
 def vnet_inference(input_folder, output_folder):
+    torch.cuda.init()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}")
     
