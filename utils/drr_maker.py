@@ -53,7 +53,7 @@ def enhance_contrast(drr):
 
 def generate_drr(ct_array, projection_axis=0, output_size=(512, 512)):
     """Generate a DRR and normalize values between 0 and 1."""
-    drr = np.mean(ct_array, axis=projection_axis)  # Average Intensity Projection (AIP)
+    drr = np.max(ct_array, axis=projection_axis)  # Average Intensity Projection (AIP)
     
     # Normalize to 0-1 range
     drr = (drr - np.min(drr)) / (np.max(drr) - np.min(drr))
@@ -188,9 +188,10 @@ def process_mhd_folder_mean(folder_path, output_dir, meta_path):
                 
                 ct_image = load_mhd_image(file_path)
                 resampled_image = resample_image(ct_image)
+                resample_array = sitk.GetArrayFromImage(resample_image)
 
                 
-                drr_image = generate_drr(resampled_image)
+                drr_image = generate_drr(resample_array, 1)
 
                 
                 output_path = os.path.join(output_dir, f"{file}_drr.png")
