@@ -18,7 +18,7 @@ for path in paths:
     os.makedirs(path, exist_ok=True)
 
 extractor = f"python dataset_maker.py -d {MAIN_DATA_DIR} -o {PATCH_MASK_DIR} -c {CSV_PATH}"
-infer = f"python data_inference_vnet.py -d {PATCH_MASK_DIR} -o {INFERENCE_DIR}"
+infer = f"python data_inference_vnet.py -i {PATCH_MASK_DIR} -o {INFERENCE_DIR}"
 patcher = f"python dataset_patcher.py -d {MAIN_DATA_DIR} -o {FULL_MASK_DIR} -r {INFERENCE_DIR} -m {META_PATH}"
 drrer = f"python drrer.py -d {MAIN_DATA_DIR} -m {FULL_MASK_DIR} -o {XRAY_DIR} --meta {META_PATH}"
 
