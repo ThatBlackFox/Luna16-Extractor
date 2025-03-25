@@ -55,7 +55,7 @@ def set_vars(args: list):
     DATA_DIR = args[args.index('-d')+1]
     OUTPUT_DIR = args[args.index('-o')+1]
     MASK_DIR = args[args.index('-m')+1]
-    META_PATH = args[args.index('-m')+1]
+    META_PATH = args[args.index('--meta')+1]
 
 def start_patch():
     # data = {
