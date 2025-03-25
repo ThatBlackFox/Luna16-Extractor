@@ -1,5 +1,5 @@
 import os
-from utils.drr_maker import process_mhd_folder
+from utils.drr_maker import *
 
 mandate = ['-d', '-o', '-m', '--meta']
 DATA_DIR = ""
@@ -63,8 +63,8 @@ def start_patch():
     #     "mask":MASK_DIR,
     #     "out": OUTPUT_DIR,
     # }
-    process_mhd_folder(DATA_DIR, os.path.join(OUTPUT_DIR, "full_ct_xray"), META_PATH)
-    process_mhd_folder(MASK_DIR, os.path.join(OUTPUT_DIR, "full_ct_mask"), META_PATH)
+    process_mhd_folder_raycast(DATA_DIR, os.path.join(OUTPUT_DIR, "full_ct_xray"), META_PATH)
+    process_mhd_folder_max(MASK_DIR, os.path.join(OUTPUT_DIR, "full_ct_mask"), META_PATH)
     
 
 def main(args: list):

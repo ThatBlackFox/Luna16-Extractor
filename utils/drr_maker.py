@@ -51,7 +51,31 @@ def enhance_contrast(drr):
     enhanced_drr = clahe.apply(drr_uint8)  # Apply CLAHE
     return enhanced_drr / 255.0  # Convert back to [0,1] range
 
-def ds(image, detector_size=(512, 512), source_to_detector_distance=1300):
+def generate_drr(ct_array, projection_axis=0, output_size=(512, 512)):
+    """Generate a DRR and normalize values between 0 and 1."""
+    drr = np.max(ct_array, axis=projection_axis)  # Average Intensity Projection (AIP)
+    
+    # Normalize to 0-1 range
+    drr = (drr - np.min(drr)) / (np.max(drr) - np.min(drr))
+
+    # Convert to 8-bit for visualization (0-255)
+    drr_uint8 = (drr * 255).astype(np.uint8)
+
+    # Enhance contrast using CLAHE
+    clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
+    enhanced_drr = clahe.apply(drr_uint8)
+
+    # Resize to a fixed output size
+    resized_drr = cv2.resize(enhanced_drr, output_size, interpolation=cv2.INTER_AREA)
+    resized_drr = np.flipud(resized_drr)
+
+    print(f"DRR shape: {resized_drr.shape}, min: {np.min(resized_drr):.2f}, max: {np.max(resized_drr):.2f}")
+    
+    
+    return resized_drr  # Returns an 8-bit image (0-255)
+
+
+def raycast(image, detector_size=(512, 512), source_to_detector_distance=1300):
     """
     Generate a coronal DRR using ray-casting with numerical stability fixes.
     """
@@ -104,7 +128,7 @@ def save_drr_image(drr, output_path):
 
 
 
-def process_mhd_folder(folder_path, output_dir, meta_path):
+def process_mhd_folder_raycast(folder_path, output_dir, meta_path):
     """Process all MHD files in the given folder except those listed in meta.json."""
     # meta_path = os.path.join(folder_path)
 
@@ -132,7 +156,41 @@ def process_mhd_folder(folder_path, output_dir, meta_path):
                 resampled_image = resample_image(ct_image)
 
                 
-                drr_image = ds(resampled_image)
+                drr_image = raycast(resampled_image)
+
+                
+                output_path = os.path.join(output_dir, f"{file}_drr.png")
+                save_drr_image(drr_image, output_path)
+
+        print("Processing complete. DRR images saved in:", output_dir)
+
+def process_mhd_folder_max(folder_path, output_dir, meta_path):
+    """Process all MHD files in the given folder except those listed in meta.json."""
+    # meta_path = os.path.join(folder_path)
+
+    # meta_path =  "meta.json"
+
+    excluded_files = set()
+    if os.path.exists(meta_path):
+        with open(meta_path, "r") as meta_file:
+            meta_data = json.load(meta_file)
+            excluded_files = set(meta_data.keys()) 
+        
+        # output_dir = os.path.join(folder_path, "drr_outputs")
+        os.makedirs(output_dir, exist_ok=True)
+
+    
+        for file in os.listdir(folder_path):
+            if file.endswith(".mhd") and file not in excluded_files:
+                file_path = os.path.join(folder_path, file)
+                print(f"Processing: {file}")
+
+                
+                ct_image = load_mhd_image(file_path)
+                resampled_image = resample_image(ct_image)
+
+                
+                drr_image = generate_drr(resampled_image)
 
                 
                 output_path = os.path.join(output_dir, f"{file}_drr.png")
