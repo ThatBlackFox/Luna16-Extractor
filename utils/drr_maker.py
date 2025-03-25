@@ -104,11 +104,11 @@ def save_drr_image(drr, output_path):
 
 
 
-def process_mhd_folder(folder_path, output_dir):
+def process_mhd_folder(folder_path, output_dir, meta_path):
     """Process all MHD files in the given folder except those listed in meta.json."""
-    meta_path = os.path.join(folder_path)
+    # meta_path = os.path.join(folder_path)
 
-    meta_path =  "meta.json"
+    # meta_path =  "meta.json"
 
 
 

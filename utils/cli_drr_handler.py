@@ -1,10 +1,11 @@
 import os
 from utils.drr_maker import process_mhd_folder
 
-mandate = ['-d', '-o', '-m']
+mandate = ['-d', '-o', '-m', '--meta']
 DATA_DIR = ""
 OUTPUT_DIR = ""
 MASK_DIR = ""
+META_PATH = ""
 
 def check_args(args: list):
     for arg in mandate:
@@ -50,18 +51,20 @@ def set_vars(args: list):
     global DATA_DIR
     global OUTPUT_DIR
     global MASK_DIR
+    global META_PATH
     DATA_DIR = args[args.index('-d')+1]
     OUTPUT_DIR = args[args.index('-o')+1]
     MASK_DIR = args[args.index('-m')+1]
+    META_PATH = args[args.index('-m')+1]
 
 def start_patch():
-    data = {
-        "data":DATA_DIR,
-        "mask":MASK_DIR,
-        "out": OUTPUT_DIR,
-    }
-    process_mhd_folder(data['data'], os.path.join(OUTPUT_DIR, "full_ct_xray"))
-    process_mhd_folder(data['mask'], os.path.join(OUTPUT_DIR, "full_ct_mask"))
+    # data = {
+    #     "data":DATA_DIR,
+    #     "mask":MASK_DIR,
+    #     "out": OUTPUT_DIR,
+    # }
+    process_mhd_folder(DATA_DIR, os.path.join(OUTPUT_DIR, "full_ct_xray"), META_PATH)
+    process_mhd_folder(MASK_DIR, os.path.join(OUTPUT_DIR, "full_ct_mask"), META_PATH)
     
 
 def main(args: list):
