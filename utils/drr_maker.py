@@ -53,7 +53,7 @@ def enhance_contrast(drr):
 
 def generate_drr(ct_array, projection_axis=0, output_size=(512, 512)):
     """Generate a DRR and normalize values between 0 and 1."""
-    drr = np.max(ct_array, axis=projection_axis)  # Average Intensity Projection (AIP)
+    drr = np.mean(ct_array, axis=projection_axis)  # Average Intensity Projection (AIP)
     
     # Normalize to 0-1 range
     drr = (drr - np.min(drr)) / (np.max(drr) - np.min(drr))
@@ -164,7 +164,7 @@ def process_mhd_folder_raycast(folder_path, output_dir, meta_path):
 
         print("Processing complete. DRR images saved in:", output_dir)
 
-def process_mhd_folder_max(folder_path, output_dir, meta_path):
+def process_mhd_folder_mean(folder_path, output_dir, meta_path):
     """Process all MHD files in the given folder except those listed in meta.json."""
     # meta_path = os.path.join(folder_path)
 
