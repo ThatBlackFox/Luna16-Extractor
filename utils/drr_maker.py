@@ -159,12 +159,12 @@ def process_mhd_folder_raycast(folder_path, output_dir, meta_path):
                 drr_image = raycast(resampled_image)
 
                 
-                output_path = os.path.join(output_dir, f"{file}_drr.png")
+                output_path = os.path.join(output_dir, f"{file}.png")
                 save_drr_image(drr_image, output_path)
 
         print("Processing complete. DRR images saved in:", output_dir)
 
-def process_mhd_folder_mean(folder_path, output_dir, meta_path):
+def process_mhd_folder_max(folder_path, output_dir, meta_path):
     """Process all MHD files in the given folder except those listed in meta.json."""
     # meta_path = os.path.join(folder_path)
 
@@ -188,13 +188,13 @@ def process_mhd_folder_mean(folder_path, output_dir, meta_path):
                 
                 ct_image = load_mhd_image(file_path)
                 resampled_image = resample_image(ct_image)
-                resample_array = sitk.GetArrayFromImage(resample_image)
+                resample_array = sitk.GetArrayFromImage(resampled_image)
 
                 
                 drr_image = generate_drr(resample_array, 1)
 
                 
-                output_path = os.path.join(output_dir, f"{file}_drr.png")
+                output_path = os.path.join(output_dir, f"{file}.png")
                 save_drr_image(drr_image, output_path)
 
         print("Processing complete. DRR images saved in:", output_dir)
