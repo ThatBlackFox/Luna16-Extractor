@@ -136,7 +136,7 @@ def process_mhd_folder_raycast(folder_path, output_dir, meta_path):
                 
                 drr_image = raycast(resampled_image)
 
-                output_path = os.path.join(output_dir, f"{file}.png")
+                output_path = os.path.join(output_dir, f"{file[:-4]}.png")
                 save_drr_image(drr_image, output_path)
 
         print("Processing complete. DRR images saved in:", output_dir)
@@ -164,7 +164,7 @@ def process_mhd_folder_max(folder_path, output_dir, meta_path):
                 
                 drr_image = generate_drr(resample_array, 1)
 
-                output_path = os.path.join(output_dir, f"{file}.png")
+                output_path = os.path.join(output_dir, f"{file[:-8]}.png")
                 save_drr_image(drr_image, output_path)
 
         print("Processing complete. DRR images saved in:", output_dir)
