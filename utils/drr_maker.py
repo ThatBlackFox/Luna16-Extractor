@@ -131,10 +131,7 @@ def save_drr_image(drr, output_path):
 def process_mhd_folder_raycast(folder_path, output_dir, meta_path):
     """Process all MHD files in the given folder except those listed in meta.json."""
     # meta_path = os.path.join(folder_path)
-
     # meta_path =  "meta.json"
-
-
 
     excluded_files = set()
     if os.path.exists(meta_path):
@@ -151,14 +148,11 @@ def process_mhd_folder_raycast(folder_path, output_dir, meta_path):
                 file_path = os.path.join(folder_path, file)
                 print(f"Processing: {file}")
 
-                
                 ct_image = load_mhd_image(file_path)
                 resampled_image = resample_image(ct_image)
-
                 
                 drr_image = raycast(resampled_image)
 
-                
                 output_path = os.path.join(output_dir, f"{file}.png")
                 save_drr_image(drr_image, output_path)
 
@@ -181,7 +175,7 @@ def process_mhd_folder_max(folder_path, output_dir, meta_path):
 
     
         for file in os.listdir(folder_path):
-            if file.endswith(".mhd") and file not in excluded_files:
+            if file.endswith(".mhd") and file[:-4] not in excluded_files:
                 file_path = os.path.join(folder_path, file)
                 print(f"Processing: {file}")
 
