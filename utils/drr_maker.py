@@ -144,7 +144,7 @@ def process_mhd_folder_raycast(folder_path, output_dir, meta_path):
 
     
         for file in os.listdir(folder_path):
-            if file.endswith(".mhd") and file not in excluded_files:
+            if file.endswith(".mhd") and '.'.join(file.split('.')[:-1]) not in excluded_files:
                 file_path = os.path.join(folder_path, file)
                 print(f"Processing: {file}")
 
@@ -169,7 +169,6 @@ def process_mhd_folder_max(folder_path, output_dir, meta_path):
             meta_data = json.load(meta_file)
             excluded_files = set(meta_data.keys()) 
         
-        # output_dir = os.path.join(folder_path, "drr_outputs")
         os.makedirs(output_dir, exist_ok=True)
     
         for file in os.listdir(folder_path):
@@ -178,11 +177,9 @@ def process_mhd_folder_max(folder_path, output_dir, meta_path):
                 file_path = os.path.join(folder_path, file)
                 print(f"Processing: {file}")
 
-                
                 ct_image = load_mhd_image(file_path)
                 resampled_image = resample_image(ct_image)
                 resample_array = sitk.GetArrayFromImage(resampled_image)
-
                 
                 drr_image = generate_drr(resample_array, 1)
 
