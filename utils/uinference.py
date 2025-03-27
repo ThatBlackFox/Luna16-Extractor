@@ -8,7 +8,8 @@ from tqdm import tqdm
 import os
 import subprocess
 import nibabel as nib
-
+import sys
+from utils.install_torch_cuda import install_pytorch
 INF_IN=""
 INF_OUT=""
 
@@ -21,6 +22,8 @@ def convert_to_nnunet(data:dict): #converts .mhd dataset into nifti files as req
     ufdata = INPUT  
     fdata = os.path.join(ufdata, "nifti")
     os.makedirs(fdata, exist_ok=True)
+    # install_requirements()
+    install_pytorch()
     ct_patches = sorted(glob.glob(os.path.join(ufdata, "*.mhd")))
     for i, ct_path in tqdm(enumerate(ct_patches), total=len(ct_patches)):
         ct_image = sitk.ReadImage(ct_path)
@@ -49,9 +52,9 @@ def nnunet_inference():
         "-d", "Dataset501_Node21",  # Replace with the actual dataset ID used for training
         "-c", "3d_fullres",
     ]
-    os.environ["nnUNet_raw"] = r"E:\NITK Datasets\nnUNet_raw_data"
-    os.environ["nnUNet_results"] = r"E:\NITK Datasets\nnUNet_results"
-    os.environ["nnUNet_preprocessed"] = r"E:\NITK Datasets\nnUNet_preprocessed"
+    os.environ["nnUNet_raw"] = r".\nnUNet_raw_data"
+    os.environ["nnUNet_results"] = r".\nnUNet_results"
+    os.environ["nnUNet_preprocessed"] = r".\nnUNet_preprocessed"
 
     # Verify they are set
     print("Environment Variables Set:")

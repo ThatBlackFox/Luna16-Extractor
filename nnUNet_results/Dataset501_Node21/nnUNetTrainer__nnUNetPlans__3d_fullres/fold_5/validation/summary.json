@@ -1,0 +1,3834 @@
+{
+    "foreground_mean": {
+        "Dice": 0.8169912915396437,
+        "FN": 215.3655462184874,
+        "FP": 132.0546218487395,
+        "IoU": 0.6977836499156417,
+        "TN": 123675.50420168067,
+        "TP": 840.5210084033613,
+        "n_pred": 972.5756302521008,
+        "n_ref": 1055.8865546218487
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.8169912915396437,
+            "FN": 215.3655462184874,
+            "FP": 132.0546218487395,
+            "IoU": 0.6977836499156417,
+            "TN": 123675.50420168067,
+            "TP": 840.5210084033613,
+            "n_pred": 972.5756302521008,
+            "n_ref": 1055.8865546218487
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8624376336421953,
+                    "FN": 126,
+                    "FP": 67,
+                    "IoU": 0.7581453634085213,
+                    "TN": 124202,
+                    "TP": 605,
+                    "n_pred": 672,
+                    "n_ref": 731
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_007.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8326073428749222,
+                    "FN": 215,
+                    "FP": 54,
+                    "IoU": 0.7132196162046909,
+                    "TN": 124062,
+                    "TP": 669,
+                    "n_pred": 723,
+                    "n_ref": 884
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_009.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_009.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8093385214007782,
+                    "FN": 77,
+                    "FP": 21,
+                    "IoU": 0.6797385620915033,
+                    "TN": 124694,
+                    "TP": 208,
+                    "n_pred": 229,
+                    "n_ref": 285
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_011.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7750677506775068,
+                    "FN": 9,
+                    "FP": 74,
+                    "IoU": 0.6327433628318584,
+                    "TN": 124774,
+                    "TP": 143,
+                    "n_pred": 217,
+                    "n_ref": 152
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_017.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_017.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6625766871165644,
+                    "FN": 14,
+                    "FP": 41,
+                    "IoU": 0.4954128440366973,
+                    "TN": 124891,
+                    "TP": 54,
+                    "n_pred": 95,
+                    "n_ref": 68
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_025.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_025.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7849462365591398,
+                    "FN": 38,
+                    "FP": 2,
+                    "IoU": 0.6460176991150443,
+                    "TN": 124887,
+                    "TP": 73,
+                    "n_pred": 75,
+                    "n_ref": 111
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_033.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_033.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7567567567567568,
+                    "FN": 9,
+                    "FP": 63,
+                    "IoU": 0.6086956521739131,
+                    "TN": 124816,
+                    "TP": 112,
+                    "n_pred": 175,
+                    "n_ref": 121
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_036.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_036.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8378378378378378,
+                    "FN": 7,
+                    "FP": 41,
+                    "IoU": 0.7209302325581395,
+                    "TN": 124828,
+                    "TP": 124,
+                    "n_pred": 165,
+                    "n_ref": 131
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_037.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_037.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8631790744466801,
+                    "FN": 69,
+                    "FP": 67,
+                    "IoU": 0.7592920353982301,
+                    "TN": 124435,
+                    "TP": 429,
+                    "n_pred": 496,
+                    "n_ref": 498
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_057.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_057.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.895114006514658,
+                    "FN": 147,
+                    "FP": 14,
+                    "IoU": 0.8101415094339622,
+                    "TN": 124152,
+                    "TP": 687,
+                    "n_pred": 701,
+                    "n_ref": 834
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_058.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_058.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.832,
+                    "FN": 21,
+                    "FP": 0,
+                    "IoU": 0.7123287671232876,
+                    "TN": 124927,
+                    "TP": 52,
+                    "n_pred": 52,
+                    "n_ref": 73
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_059.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_059.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8648648648648649,
+                    "FN": 6,
+                    "FP": 19,
+                    "IoU": 0.7619047619047619,
+                    "TN": 124895,
+                    "TP": 80,
+                    "n_pred": 99,
+                    "n_ref": 86
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_061.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_061.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.735632183908046,
+                    "FN": 66,
+                    "FP": 26,
+                    "IoU": 0.5818181818181818,
+                    "TN": 124780,
+                    "TP": 128,
+                    "n_pred": 154,
+                    "n_ref": 194
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_063.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_063.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9048111743404035,
+                    "FN": 224,
+                    "FP": 144,
+                    "IoU": 0.8261691072272083,
+                    "TN": 122883,
+                    "TP": 1749,
+                    "n_pred": 1893,
+                    "n_ref": 1973
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_074.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_074.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7758284600389863,
+                    "FN": 25,
+                    "FP": 90,
+                    "IoU": 0.6337579617834395,
+                    "TN": 124686,
+                    "TP": 199,
+                    "n_pred": 289,
+                    "n_ref": 224
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_080.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_080.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6844919786096256,
+                    "FN": 23,
+                    "FP": 36,
+                    "IoU": 0.5203252032520326,
+                    "TN": 124877,
+                    "TP": 64,
+                    "n_pred": 100,
+                    "n_ref": 87
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_081.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_081.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8685714285714285,
+                    "FN": 10,
+                    "FP": 13,
+                    "IoU": 0.7676767676767676,
+                    "TN": 124901,
+                    "TP": 76,
+                    "n_pred": 89,
+                    "n_ref": 86
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_083.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_083.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9172932330827067,
+                    "FN": 9,
+                    "FP": 13,
+                    "IoU": 0.8472222222222222,
+                    "TN": 124856,
+                    "TP": 122,
+                    "n_pred": 135,
+                    "n_ref": 131
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_090.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_090.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8730964467005076,
+                    "FN": 13,
+                    "FP": 12,
+                    "IoU": 0.7747747747747747,
+                    "TN": 124889,
+                    "TP": 86,
+                    "n_pred": 98,
+                    "n_ref": 99
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_093.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_093.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7948717948717948,
+                    "FN": 17,
+                    "FP": 15,
+                    "IoU": 0.6595744680851063,
+                    "TN": 124906,
+                    "TP": 62,
+                    "n_pred": 77,
+                    "n_ref": 79
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_094.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_094.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9487179487179487,
+                    "FN": 1,
+                    "FP": 19,
+                    "IoU": 0.9024390243902439,
+                    "TN": 124795,
+                    "TP": 185,
+                    "n_pred": 204,
+                    "n_ref": 186
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_098.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_098.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.03739184177997528,
+                    "FN": 12443,
+                    "FP": 17,
+                    "IoU": 0.019052117776728075,
+                    "TN": 112298,
+                    "TP": 242,
+                    "n_pred": 259,
+                    "n_ref": 12685
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_099.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_099.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8448720957521708,
+                    "FN": 1934,
+                    "FP": 710,
+                    "IoU": 0.7314099959366112,
+                    "TN": 115156,
+                    "TP": 7200,
+                    "n_pred": 7910,
+                    "n_ref": 9134
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1005.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1005.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9153104279686558,
+                    "FN": 797,
+                    "FP": 889,
+                    "IoU": 0.8438455126424007,
+                    "TN": 114203,
+                    "TP": 9111,
+                    "n_pred": 10000,
+                    "n_ref": 9908
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1012.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.866293034427542,
+                    "FN": 123,
+                    "FP": 44,
+                    "IoU": 0.7641242937853108,
+                    "TN": 124292,
+                    "TP": 541,
+                    "n_pred": 585,
+                    "n_ref": 664
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1013.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8762541806020067,
+                    "FN": 58,
+                    "FP": 164,
+                    "IoU": 0.7797619047619048,
+                    "TN": 123992,
+                    "TP": 786,
+                    "n_pred": 950,
+                    "n_ref": 844
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1014.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1014.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7894736842105263,
+                    "FN": 46,
+                    "FP": 114,
+                    "IoU": 0.6521739130434783,
+                    "TN": 124540,
+                    "TP": 300,
+                    "n_pred": 414,
+                    "n_ref": 346
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1016.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1016.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7830188679245284,
+                    "FN": 37,
+                    "FP": 9,
+                    "IoU": 0.6434108527131783,
+                    "TN": 124871,
+                    "TP": 83,
+                    "n_pred": 92,
+                    "n_ref": 120
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1033.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1033.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8,
+                    "FN": 21,
+                    "FP": 11,
+                    "IoU": 0.6666666666666666,
+                    "TN": 124904,
+                    "TP": 64,
+                    "n_pred": 75,
+                    "n_ref": 85
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1034.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1034.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8604651162790697,
+                    "FN": 122,
+                    "FP": 70,
+                    "IoU": 0.7551020408163265,
+                    "TN": 124216,
+                    "TP": 592,
+                    "n_pred": 662,
+                    "n_ref": 714
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1035.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1035.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.86084142394822,
+                    "FN": 17,
+                    "FP": 26,
+                    "IoU": 0.7556818181818182,
+                    "TN": 124824,
+                    "TP": 133,
+                    "n_pred": 159,
+                    "n_ref": 150
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_104.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_104.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8580980683506686,
+                    "FN": 1790,
+                    "FP": 502,
+                    "IoU": 0.7514638906961614,
+                    "TN": 115778,
+                    "TP": 6930,
+                    "n_pred": 7432,
+                    "n_ref": 8720
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1043.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1043.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8497970230040596,
+                    "FN": 70,
+                    "FP": 41,
+                    "IoU": 0.7388235294117647,
+                    "TN": 124575,
+                    "TP": 314,
+                    "n_pred": 355,
+                    "n_ref": 384
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1045.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1045.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9338000777907429,
+                    "FN": 464,
+                    "FP": 387,
+                    "IoU": 0.875820808405078,
+                    "TN": 118147,
+                    "TP": 6002,
+                    "n_pred": 6389,
+                    "n_ref": 6466
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1052.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1052.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9024390243902439,
+                    "FN": 9,
+                    "FP": 7,
+                    "IoU": 0.8222222222222222,
+                    "TN": 124910,
+                    "TP": 74,
+                    "n_pred": 81,
+                    "n_ref": 83
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1054.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1054.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.693069306930693,
+                    "FN": 25,
+                    "FP": 68,
+                    "IoU": 0.5303030303030303,
+                    "TN": 124802,
+                    "TP": 105,
+                    "n_pred": 173,
+                    "n_ref": 130
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1059.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1059.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8689064558629777,
+                    "FN": 142,
+                    "FP": 256,
+                    "IoU": 0.7682003494467093,
+                    "TN": 123283,
+                    "TP": 1319,
+                    "n_pred": 1575,
+                    "n_ref": 1461
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_106.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_106.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8,
+                    "FN": 11,
+                    "FP": 27,
+                    "IoU": 0.6666666666666666,
+                    "TN": 124886,
+                    "TP": 76,
+                    "n_pred": 103,
+                    "n_ref": 87
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1064.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1064.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8212927756653993,
+                    "FN": 20,
+                    "FP": 27,
+                    "IoU": 0.6967741935483871,
+                    "TN": 124845,
+                    "TP": 108,
+                    "n_pred": 135,
+                    "n_ref": 128
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1074.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1074.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8902316213494461,
+                    "FN": 86,
+                    "FP": 23,
+                    "IoU": 0.8021778584392014,
+                    "TN": 124449,
+                    "TP": 442,
+                    "n_pred": 465,
+                    "n_ref": 528
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1076.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1076.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6878405315614617,
+                    "FN": 2082,
+                    "FP": 267,
+                    "IoU": 0.5242049827830666,
+                    "TN": 120063,
+                    "TP": 2588,
+                    "n_pred": 2855,
+                    "n_ref": 4670
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1077.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1077.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7988980716253443,
+                    "FN": 30,
+                    "FP": 43,
+                    "IoU": 0.6651376146788991,
+                    "TN": 124782,
+                    "TP": 145,
+                    "n_pred": 188,
+                    "n_ref": 175
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1079.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1079.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9077366650648726,
+                    "FN": 373,
+                    "FP": 11,
+                    "IoU": 0.8310602727672679,
+                    "TN": 122727,
+                    "TP": 1889,
+                    "n_pred": 1900,
+                    "n_ref": 2262
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1099.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1099.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8733031674208145,
+                    "FN": 26,
+                    "FP": 30,
+                    "IoU": 0.7751004016064257,
+                    "TN": 124751,
+                    "TP": 193,
+                    "n_pred": 223,
+                    "n_ref": 219
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_110.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_110.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7232142857142857,
+                    "FN": 79,
+                    "FP": 107,
+                    "IoU": 0.5664335664335665,
+                    "TN": 124571,
+                    "TP": 243,
+                    "n_pred": 350,
+                    "n_ref": 322
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1100.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1100.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9094167930511512,
+                    "FN": 229,
+                    "FP": 428,
+                    "IoU": 0.833881163084703,
+                    "TN": 121045,
+                    "TP": 3298,
+                    "n_pred": 3726,
+                    "n_ref": 3527
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1107.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1107.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8426395939086294,
+                    "FN": 27,
+                    "FP": 4,
+                    "IoU": 0.7280701754385965,
+                    "TN": 124886,
+                    "TP": 83,
+                    "n_pred": 87,
+                    "n_ref": 110
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1110.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1110.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8637015781922525,
+                    "FN": 118,
+                    "FP": 72,
+                    "IoU": 0.76010101010101,
+                    "TN": 124208,
+                    "TP": 602,
+                    "n_pred": 674,
+                    "n_ref": 720
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1112.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1112.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.869215291750503,
+                    "FN": 125,
+                    "FP": 200,
+                    "IoU": 0.7686832740213523,
+                    "TN": 123595,
+                    "TP": 1080,
+                    "n_pred": 1280,
+                    "n_ref": 1205
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1115.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1115.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8695652173913043,
+                    "FN": 7,
+                    "FP": 5,
+                    "IoU": 0.7692307692307693,
+                    "TN": 124948,
+                    "TP": 40,
+                    "n_pred": 45,
+                    "n_ref": 47
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1120.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1120.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9251824817518248,
+                    "FN": 38,
+                    "FP": 44,
+                    "IoU": 0.8607809847198642,
+                    "TN": 124411,
+                    "TP": 507,
+                    "n_pred": 551,
+                    "n_ref": 545
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1127.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1127.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8121212121212121,
+                    "FN": 12,
+                    "FP": 19,
+                    "IoU": 0.6836734693877551,
+                    "TN": 124902,
+                    "TP": 67,
+                    "n_pred": 86,
+                    "n_ref": 79
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_113.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_113.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6636093008287071,
+                    "FN": 396,
+                    "FP": 3785,
+                    "IoU": 0.49656833232992176,
+                    "TN": 116695,
+                    "TP": 4124,
+                    "n_pred": 7909,
+                    "n_ref": 4520
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1135.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1135.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7482014388489209,
+                    "FN": 19,
+                    "FP": 16,
+                    "IoU": 0.5977011494252874,
+                    "TN": 124913,
+                    "TP": 52,
+                    "n_pred": 68,
+                    "n_ref": 71
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1137.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1137.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8108108108108109,
+                    "FN": 1,
+                    "FP": 27,
+                    "IoU": 0.6818181818181818,
+                    "TN": 124912,
+                    "TP": 60,
+                    "n_pred": 87,
+                    "n_ref": 61
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1139.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1139.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7445255474452555,
+                    "FN": 11,
+                    "FP": 24,
+                    "IoU": 0.5930232558139535,
+                    "TN": 124914,
+                    "TP": 51,
+                    "n_pred": 75,
+                    "n_ref": 62
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1140.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1140.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8062015503875969,
+                    "FN": 9,
+                    "FP": 16,
+                    "IoU": 0.6753246753246753,
+                    "TN": 124923,
+                    "TP": 52,
+                    "n_pred": 68,
+                    "n_ref": 61
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1142.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1142.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8845760980592441,
+                    "FN": 63,
+                    "FP": 50,
+                    "IoU": 0.793040293040293,
+                    "TN": 124454,
+                    "TP": 433,
+                    "n_pred": 483,
+                    "n_ref": 496
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1145.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1145.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8447082096933729,
+                    "FN": 86,
+                    "FP": 71,
+                    "IoU": 0.7311643835616438,
+                    "TN": 124416,
+                    "TP": 427,
+                    "n_pred": 498,
+                    "n_ref": 513
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1148.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1148.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.873972602739726,
+                    "FN": 363,
+                    "FP": 97,
+                    "IoU": 0.7761557177615572,
+                    "TN": 122945,
+                    "TP": 1595,
+                    "n_pred": 1692,
+                    "n_ref": 1958
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1149.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1149.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8253968253968254,
+                    "FN": 13,
+                    "FP": 20,
+                    "IoU": 0.7027027027027027,
+                    "TN": 124889,
+                    "TP": 78,
+                    "n_pred": 98,
+                    "n_ref": 91
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1152.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1152.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8036529680365296,
+                    "FN": 58,
+                    "FP": 28,
+                    "IoU": 0.6717557251908397,
+                    "TN": 124738,
+                    "TP": 176,
+                    "n_pred": 204,
+                    "n_ref": 234
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1156.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1156.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8403361344537815,
+                    "FN": 47,
+                    "FP": 10,
+                    "IoU": 0.7246376811594203,
+                    "TN": 124793,
+                    "TP": 150,
+                    "n_pred": 160,
+                    "n_ref": 197
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1165.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1165.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9072657743785851,
+                    "FN": 93,
+                    "FP": 295,
+                    "IoU": 0.8302712160979877,
+                    "TN": 122714,
+                    "TP": 1898,
+                    "n_pred": 2193,
+                    "n_ref": 1991
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1175.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1175.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8074534161490683,
+                    "FN": 24,
+                    "FP": 7,
+                    "IoU": 0.6770833333333334,
+                    "TN": 124904,
+                    "TP": 65,
+                    "n_pred": 72,
+                    "n_ref": 89
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_118.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_118.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.631578947368421,
+                    "FN": 6,
+                    "FP": 43,
+                    "IoU": 0.46153846153846156,
+                    "TN": 124909,
+                    "TP": 42,
+                    "n_pred": 85,
+                    "n_ref": 48
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_1181.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_1181.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8068181818181818,
+                    "FN": 18,
+                    "FP": 16,
+                    "IoU": 0.6761904761904762,
+                    "TN": 124895,
+                    "TP": 71,
+                    "n_pred": 87,
+                    "n_ref": 89
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_119.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_119.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7617021276595745,
+                    "FN": 73,
+                    "FP": 39,
+                    "IoU": 0.6151202749140894,
+                    "TN": 124709,
+                    "TP": 179,
+                    "n_pred": 218,
+                    "n_ref": 252
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_131.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_131.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7798751064433721,
+                    "FN": 377,
+                    "FP": 2725,
+                    "IoU": 0.639176456903571,
+                    "TN": 116403,
+                    "TP": 5495,
+                    "n_pred": 8220,
+                    "n_ref": 5872
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_135.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_135.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7942583732057417,
+                    "FN": 1,
+                    "FP": 42,
+                    "IoU": 0.6587301587301587,
+                    "TN": 124874,
+                    "TP": 83,
+                    "n_pred": 125,
+                    "n_ref": 84
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_146.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_146.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8066298342541437,
+                    "FN": 48,
+                    "FP": 22,
+                    "IoU": 0.6759259259259259,
+                    "TN": 124784,
+                    "TP": 146,
+                    "n_pred": 168,
+                    "n_ref": 194
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_151.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_151.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8977793443778639,
+                    "FN": 439,
+                    "FP": 141,
+                    "IoU": 0.8145187080268628,
+                    "TN": 121873,
+                    "TP": 2547,
+                    "n_pred": 2688,
+                    "n_ref": 2986
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_156.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_156.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4628099173553719,
+                    "FN": 63,
+                    "FP": 2,
+                    "IoU": 0.3010752688172043,
+                    "TN": 124907,
+                    "TP": 28,
+                    "n_pred": 30,
+                    "n_ref": 91
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_165.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_165.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8402948402948403,
+                    "FN": 14,
+                    "FP": 51,
+                    "IoU": 0.7245762711864406,
+                    "TN": 124764,
+                    "TP": 171,
+                    "n_pred": 222,
+                    "n_ref": 185
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_169.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_169.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8545034642032333,
+                    "FN": 41,
+                    "FP": 22,
+                    "IoU": 0.7459677419354839,
+                    "TN": 99752,
+                    "TP": 185,
+                    "n_pred": 207,
+                    "n_ref": 226
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_173.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_173.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8557692307692307,
+                    "FN": 17,
+                    "FP": 13,
+                    "IoU": 0.7478991596638656,
+                    "TN": 124881,
+                    "TP": 89,
+                    "n_pred": 102,
+                    "n_ref": 106
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_174.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_174.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9210457516339869,
+                    "FN": 900,
+                    "FP": 308,
+                    "IoU": 0.8536467167433971,
+                    "TN": 116746,
+                    "TP": 7046,
+                    "n_pred": 7354,
+                    "n_ref": 7946
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_178.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_178.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8240165631469979,
+                    "FN": 17,
+                    "FP": 68,
+                    "IoU": 0.7007042253521126,
+                    "TN": 124716,
+                    "TP": 199,
+                    "n_pred": 267,
+                    "n_ref": 216
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_184.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_184.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8585365853658536,
+                    "FN": 11,
+                    "FP": 47,
+                    "IoU": 0.7521367521367521,
+                    "TN": 124766,
+                    "TP": 176,
+                    "n_pred": 223,
+                    "n_ref": 187
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_185.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_185.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8663793103448276,
+                    "FN": 53,
+                    "FP": 9,
+                    "IoU": 0.7642585551330798,
+                    "TN": 124737,
+                    "TP": 201,
+                    "n_pred": 210,
+                    "n_ref": 254
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_188.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_188.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8439306358381503,
+                    "FN": 24,
+                    "FP": 3,
+                    "IoU": 0.73,
+                    "TN": 124900,
+                    "TP": 73,
+                    "n_pred": 76,
+                    "n_ref": 97
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_189.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_189.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9031746031746032,
+                    "FN": 42,
+                    "FP": 80,
+                    "IoU": 0.8234442836468886,
+                    "TN": 124309,
+                    "TP": 569,
+                    "n_pred": 649,
+                    "n_ref": 611
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_193.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_193.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8532608695652174,
+                    "FN": 41,
+                    "FP": 13,
+                    "IoU": 0.7440758293838863,
+                    "TN": 124789,
+                    "TP": 157,
+                    "n_pred": 170,
+                    "n_ref": 198
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_194.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_194.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8618014880481241,
+                    "FN": 646,
+                    "FP": 227,
+                    "IoU": 0.7571627260083449,
+                    "TN": 121405,
+                    "TP": 2722,
+                    "n_pred": 2949,
+                    "n_ref": 3368
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_196.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_196.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8414096916299559,
+                    "FN": 36,
+                    "FP": 36,
+                    "IoU": 0.7262357414448669,
+                    "TN": 124737,
+                    "TP": 191,
+                    "n_pred": 227,
+                    "n_ref": 227
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_197.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_197.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8382352941176471,
+                    "FN": 14,
+                    "FP": 8,
+                    "IoU": 0.7215189873417721,
+                    "TN": 124921,
+                    "TP": 57,
+                    "n_pred": 65,
+                    "n_ref": 71
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_201.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_201.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7352941176470589,
+                    "FN": 8,
+                    "FP": 64,
+                    "IoU": 0.5813953488372093,
+                    "TN": 124828,
+                    "TP": 100,
+                    "n_pred": 164,
+                    "n_ref": 108
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_204.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_204.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8600883652430045,
+                    "FN": 82,
+                    "FP": 13,
+                    "IoU": 0.7545219638242894,
+                    "TN": 124613,
+                    "TP": 292,
+                    "n_pred": 305,
+                    "n_ref": 374
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_220.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_220.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6652452025586354,
+                    "FN": 45,
+                    "FP": 112,
+                    "IoU": 0.4984025559105431,
+                    "TN": 124687,
+                    "TP": 156,
+                    "n_pred": 268,
+                    "n_ref": 201
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_227.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_227.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8532289628180039,
+                    "FN": 4,
+                    "FP": 71,
+                    "IoU": 0.7440273037542662,
+                    "TN": 124707,
+                    "TP": 218,
+                    "n_pred": 289,
+                    "n_ref": 222
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_230.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_230.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8706896551724138,
+                    "FN": 13,
+                    "FP": 17,
+                    "IoU": 0.7709923664122137,
+                    "TN": 124869,
+                    "TP": 101,
+                    "n_pred": 118,
+                    "n_ref": 114
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_239.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_239.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6666666666666666,
+                    "FN": 25,
+                    "FP": 16,
+                    "IoU": 0.5,
+                    "TN": 124918,
+                    "TP": 41,
+                    "n_pred": 57,
+                    "n_ref": 66
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_241.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_241.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8285714285714286,
+                    "FN": 40,
+                    "FP": 8,
+                    "IoU": 0.7073170731707317,
+                    "TN": 124836,
+                    "TP": 116,
+                    "n_pred": 124,
+                    "n_ref": 156
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_246.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_246.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7663551401869159,
+                    "FN": 37,
+                    "FP": 13,
+                    "IoU": 0.6212121212121212,
+                    "TN": 124868,
+                    "TP": 82,
+                    "n_pred": 95,
+                    "n_ref": 119
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_248.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_248.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7761335385343909,
+                    "FN": 3347,
+                    "FP": 435,
+                    "IoU": 0.6341652157090346,
+                    "TN": 114662,
+                    "TP": 6556,
+                    "n_pred": 6991,
+                    "n_ref": 9903
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_258.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_258.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8835930339138405,
+                    "FN": 82,
+                    "FP": 45,
+                    "IoU": 0.7914614121510674,
+                    "TN": 124391,
+                    "TP": 482,
+                    "n_pred": 527,
+                    "n_ref": 564
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_259.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_259.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7986798679867987,
+                    "FN": 32,
+                    "FP": 29,
+                    "IoU": 0.6648351648351648,
+                    "TN": 124818,
+                    "TP": 121,
+                    "n_pred": 150,
+                    "n_ref": 153
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_260.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_260.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7769784172661871,
+                    "FN": 25,
+                    "FP": 6,
+                    "IoU": 0.6352941176470588,
+                    "TN": 124915,
+                    "TP": 54,
+                    "n_pred": 60,
+                    "n_ref": 79
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_270.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_270.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8798388901320205,
+                    "FN": 207,
+                    "FP": 330,
+                    "IoU": 0.7854574510587295,
+                    "TN": 122497,
+                    "TP": 1966,
+                    "n_pred": 2296,
+                    "n_ref": 2173
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_272.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_272.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6470588235294118,
+                    "FN": 2,
+                    "FP": 46,
+                    "IoU": 0.4782608695652174,
+                    "TN": 124908,
+                    "TP": 44,
+                    "n_pred": 90,
+                    "n_ref": 46
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_277.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_277.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8826741996233521,
+                    "FN": 392,
+                    "FP": 854,
+                    "IoU": 0.7899882015843587,
+                    "TN": 119067,
+                    "TP": 4687,
+                    "n_pred": 5541,
+                    "n_ref": 5079
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_278.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_278.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8612374886260237,
+                    "FN": 332,
+                    "FP": 278,
+                    "IoU": 0.7562924490611267,
+                    "TN": 122497,
+                    "TP": 1893,
+                    "n_pred": 2171,
+                    "n_ref": 2225
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_282.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_282.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8636763412489006,
+                    "FN": 74,
+                    "FP": 81,
+                    "IoU": 0.760061919504644,
+                    "TN": 124354,
+                    "TP": 491,
+                    "n_pred": 572,
+                    "n_ref": 565
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_283.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_283.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8803176403857061,
+                    "FN": 152,
+                    "FP": 59,
+                    "IoU": 0.7862208713272543,
+                    "TN": 124013,
+                    "TP": 776,
+                    "n_pred": 835,
+                    "n_ref": 928
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_287.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_287.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8735632183908046,
+                    "FN": 17,
+                    "FP": 5,
+                    "IoU": 0.7755102040816326,
+                    "TN": 124902,
+                    "TP": 76,
+                    "n_pred": 81,
+                    "n_ref": 93
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_289.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_289.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8830409356725146,
+                    "FN": 17,
+                    "FP": 23,
+                    "IoU": 0.7905759162303665,
+                    "TN": 124809,
+                    "TP": 151,
+                    "n_pred": 174,
+                    "n_ref": 168
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_291.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_291.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8801410105757932,
+                    "FN": 780,
+                    "FP": 1872,
+                    "IoU": 0.7859391395592865,
+                    "TN": 112611,
+                    "TP": 9737,
+                    "n_pred": 11609,
+                    "n_ref": 10517
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_300.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_300.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8551564310544612,
+                    "FN": 53,
+                    "FP": 72,
+                    "IoU": 0.7469635627530364,
+                    "TN": 124506,
+                    "TP": 369,
+                    "n_pred": 441,
+                    "n_ref": 422
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_305.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_305.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7761194029850746,
+                    "FN": 45,
+                    "FP": 0,
+                    "IoU": 0.6341463414634146,
+                    "TN": 124877,
+                    "TP": 78,
+                    "n_pred": 78,
+                    "n_ref": 123
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_312.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_312.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8112676056338028,
+                    "FN": 34,
+                    "FP": 33,
+                    "IoU": 0.6824644549763034,
+                    "TN": 124789,
+                    "TP": 144,
+                    "n_pred": 177,
+                    "n_ref": 178
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_315.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_315.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.881590319792567,
+                    "FN": 59,
+                    "FP": 78,
+                    "IoU": 0.7882534775888718,
+                    "TN": 124353,
+                    "TP": 510,
+                    "n_pred": 588,
+                    "n_ref": 569
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_331.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_331.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9061352910330361,
+                    "FN": 74,
+                    "FP": 105,
+                    "IoU": 0.8283796740172579,
+                    "TN": 123957,
+                    "TP": 864,
+                    "n_pred": 969,
+                    "n_ref": 938
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_334.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_334.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8471377126536694,
+                    "FN": 272,
+                    "FP": 959,
+                    "IoU": 0.7348125807841448,
+                    "TN": 120358,
+                    "TP": 3411,
+                    "n_pred": 4370,
+                    "n_ref": 3683
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_336.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_336.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8531468531468531,
+                    "FN": 3,
+                    "FP": 18,
+                    "IoU": 0.7439024390243902,
+                    "TN": 124918,
+                    "TP": 61,
+                    "n_pred": 79,
+                    "n_ref": 64
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_341.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_341.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7018867924528301,
+                    "FN": 8,
+                    "FP": 71,
+                    "IoU": 0.5406976744186046,
+                    "TN": 124828,
+                    "TP": 93,
+                    "n_pred": 164,
+                    "n_ref": 101
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_344.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_344.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8549107142857143,
+                    "FN": 103,
+                    "FP": 27,
+                    "IoU": 0.746588693957115,
+                    "TN": 124487,
+                    "TP": 383,
+                    "n_pred": 410,
+                    "n_ref": 486
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_346.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_346.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7142857142857143,
+                    "FN": 56,
+                    "FP": 16,
+                    "IoU": 0.5555555555555556,
+                    "TN": 124838,
+                    "TP": 90,
+                    "n_pred": 106,
+                    "n_ref": 146
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_349.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_349.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8080808080808081,
+                    "FN": 35,
+                    "FP": 3,
+                    "IoU": 0.6779661016949152,
+                    "TN": 124882,
+                    "TP": 80,
+                    "n_pred": 83,
+                    "n_ref": 115
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_359.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_359.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8122866894197952,
+                    "FN": 42,
+                    "FP": 68,
+                    "IoU": 0.6839080459770115,
+                    "TN": 124652,
+                    "TP": 238,
+                    "n_pred": 306,
+                    "n_ref": 280
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_364.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_364.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7899159663865546,
+                    "FN": 2,
+                    "FP": 23,
+                    "IoU": 0.6527777777777778,
+                    "TN": 124928,
+                    "TP": 47,
+                    "n_pred": 70,
+                    "n_ref": 49
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_365.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_365.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8570689209005434,
+                    "FN": 377,
+                    "FP": 1280,
+                    "IoU": 0.7498867924528302,
+                    "TN": 118375,
+                    "TP": 4968,
+                    "n_pred": 6248,
+                    "n_ref": 5345
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_370.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_370.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8518518518518519,
+                    "FN": 44,
+                    "FP": 12,
+                    "IoU": 0.7419354838709677,
+                    "TN": 124783,
+                    "TP": 161,
+                    "n_pred": 173,
+                    "n_ref": 205
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_379.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_379.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7947019867549668,
+                    "FN": 55,
+                    "FP": 7,
+                    "IoU": 0.6593406593406593,
+                    "TN": 124818,
+                    "TP": 120,
+                    "n_pred": 127,
+                    "n_ref": 175
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_380.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_380.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6451612903225806,
+                    "FN": 5,
+                    "FP": 61,
+                    "IoU": 0.47619047619047616,
+                    "TN": 124874,
+                    "TP": 60,
+                    "n_pred": 121,
+                    "n_ref": 65
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_381.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_381.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8793103448275862,
+                    "FN": 16,
+                    "FP": 12,
+                    "IoU": 0.7846153846153846,
+                    "TN": 124870,
+                    "TP": 102,
+                    "n_pred": 114,
+                    "n_ref": 118
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_382.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_382.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7566718995290423,
+                    "FN": 121,
+                    "FP": 34,
+                    "IoU": 0.6085858585858586,
+                    "TN": 124604,
+                    "TP": 241,
+                    "n_pred": 275,
+                    "n_ref": 362
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_383.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_383.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8368953880764904,
+                    "FN": 106,
+                    "FP": 39,
+                    "IoU": 0.7195357833655706,
+                    "TN": 124483,
+                    "TP": 372,
+                    "n_pred": 411,
+                    "n_ref": 478
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_402.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_402.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8544600938967136,
+                    "FN": 101,
+                    "FP": 23,
+                    "IoU": 0.7459016393442623,
+                    "TN": 124512,
+                    "TP": 364,
+                    "n_pred": 387,
+                    "n_ref": 465
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_404.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_404.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8099173553719008,
+                    "FN": 4,
+                    "FP": 19,
+                    "IoU": 0.6805555555555556,
+                    "TN": 124928,
+                    "TP": 49,
+                    "n_pred": 68,
+                    "n_ref": 53
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_409.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_409.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8387096774193549,
+                    "FN": 11,
+                    "FP": 4,
+                    "IoU": 0.7222222222222222,
+                    "TN": 124946,
+                    "TP": 39,
+                    "n_pred": 43,
+                    "n_ref": 50
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_410.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_410.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7972027972027972,
+                    "FN": 23,
+                    "FP": 6,
+                    "IoU": 0.6627906976744186,
+                    "TN": 124914,
+                    "TP": 57,
+                    "n_pred": 63,
+                    "n_ref": 80
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_412.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_412.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7511520737327189,
+                    "FN": 92,
+                    "FP": 16,
+                    "IoU": 0.6014760147601476,
+                    "TN": 124729,
+                    "TP": 163,
+                    "n_pred": 179,
+                    "n_ref": 255
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_414.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_414.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7949709864603481,
+                    "FN": 123,
+                    "FP": 89,
+                    "IoU": 0.6597110754414125,
+                    "TN": 124377,
+                    "TP": 411,
+                    "n_pred": 500,
+                    "n_ref": 534
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_419.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_419.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8805031446540881,
+                    "FN": 33,
+                    "FP": 5,
+                    "IoU": 0.7865168539325843,
+                    "TN": 124822,
+                    "TP": 140,
+                    "n_pred": 145,
+                    "n_ref": 173
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_423.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_423.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8296998420221169,
+                    "FN": 421,
+                    "FP": 118,
+                    "IoU": 0.708963282937365,
+                    "TN": 123148,
+                    "TP": 1313,
+                    "n_pred": 1431,
+                    "n_ref": 1734
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_425.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_425.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7325125909345271,
+                    "FN": 878,
+                    "FP": 78,
+                    "IoU": 0.577924944812362,
+                    "TN": 122735,
+                    "TP": 1309,
+                    "n_pred": 1387,
+                    "n_ref": 2187
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_428.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_428.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8571428571428571,
+                    "FN": 11,
+                    "FP": 11,
+                    "IoU": 0.75,
+                    "TN": 124912,
+                    "TP": 66,
+                    "n_pred": 77,
+                    "n_ref": 77
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_431.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_431.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9289996253278382,
+                    "FN": 206,
+                    "FP": 552,
+                    "IoU": 0.8674129788350533,
+                    "TN": 119283,
+                    "TP": 4959,
+                    "n_pred": 5511,
+                    "n_ref": 5165
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_438.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_438.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6157989228007181,
+                    "FN": 2127,
+                    "FP": 13,
+                    "IoU": 0.44487678339818415,
+                    "TN": 121145,
+                    "TP": 1715,
+                    "n_pred": 1728,
+                    "n_ref": 3842
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_443.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_443.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7381530984204131,
+                    "FN": 763,
+                    "FP": 99,
+                    "IoU": 0.5849783341357727,
+                    "TN": 122923,
+                    "TP": 1215,
+                    "n_pred": 1314,
+                    "n_ref": 1978
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_444.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_444.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8298035213064557,
+                    "FN": 593,
+                    "FP": 74,
+                    "IoU": 0.7091146969036197,
+                    "TN": 122707,
+                    "TP": 1626,
+                    "n_pred": 1700,
+                    "n_ref": 2219
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_446.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_446.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9371056381029921,
+                    "FN": 119,
+                    "FP": 190,
+                    "IoU": 0.8816545384909996,
+                    "TN": 122389,
+                    "TP": 2302,
+                    "n_pred": 2492,
+                    "n_ref": 2421
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_447.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_447.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8636768108204307,
+                    "FN": 715,
+                    "FP": 817,
+                    "IoU": 0.7600626468285043,
+                    "TN": 118615,
+                    "TP": 4853,
+                    "n_pred": 5670,
+                    "n_ref": 5568
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_448.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_448.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7714285714285715,
+                    "FN": 29,
+                    "FP": 3,
+                    "IoU": 0.627906976744186,
+                    "TN": 124914,
+                    "TP": 54,
+                    "n_pred": 57,
+                    "n_ref": 83
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_454.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_454.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8432671081677704,
+                    "FN": 66,
+                    "FP": 5,
+                    "IoU": 0.7290076335877863,
+                    "TN": 124738,
+                    "TP": 191,
+                    "n_pred": 196,
+                    "n_ref": 257
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_455.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_455.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8737127371273713,
+                    "FN": 273,
+                    "FP": 193,
+                    "IoU": 0.7757459095283927,
+                    "TN": 122922,
+                    "TP": 1612,
+                    "n_pred": 1805,
+                    "n_ref": 1885
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_456.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_456.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9386236825790453,
+                    "FN": 40,
+                    "FP": 59,
+                    "IoU": 0.8843457943925234,
+                    "TN": 124144,
+                    "TP": 757,
+                    "n_pred": 816,
+                    "n_ref": 797
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_457.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_457.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8217391304347826,
+                    "FN": 11,
+                    "FP": 71,
+                    "IoU": 0.6974169741697417,
+                    "TN": 124729,
+                    "TP": 189,
+                    "n_pred": 260,
+                    "n_ref": 200
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_468.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_468.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7123287671232876,
+                    "FN": 0,
+                    "FP": 21,
+                    "IoU": 0.5531914893617021,
+                    "TN": 124953,
+                    "TP": 26,
+                    "n_pred": 47,
+                    "n_ref": 26
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_478.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_478.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7518796992481203,
+                    "FN": 30,
+                    "FP": 69,
+                    "IoU": 0.6024096385542169,
+                    "TN": 124751,
+                    "TP": 150,
+                    "n_pred": 219,
+                    "n_ref": 180
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_480.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_480.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8414634146341463,
+                    "FN": 30,
+                    "FP": 22,
+                    "IoU": 0.7263157894736842,
+                    "TN": 124810,
+                    "TP": 138,
+                    "n_pred": 160,
+                    "n_ref": 168
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_482.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_482.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.717948717948718,
+                    "FN": 32,
+                    "FP": 1,
+                    "IoU": 0.56,
+                    "TN": 124925,
+                    "TP": 42,
+                    "n_pred": 43,
+                    "n_ref": 74
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_484.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_484.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8301886792452831,
+                    "FN": 11,
+                    "FP": 34,
+                    "IoU": 0.7096774193548387,
+                    "TN": 124845,
+                    "TP": 110,
+                    "n_pred": 144,
+                    "n_ref": 121
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_499.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_499.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7762237762237763,
+                    "FN": 12,
+                    "FP": 52,
+                    "IoU": 0.6342857142857142,
+                    "TN": 124825,
+                    "TP": 111,
+                    "n_pred": 163,
+                    "n_ref": 123
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_503.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_503.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8662131519274376,
+                    "FN": 34,
+                    "FP": 25,
+                    "IoU": 0.764,
+                    "TN": 124750,
+                    "TP": 191,
+                    "n_pred": 216,
+                    "n_ref": 225
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_513.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_513.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8389830508474576,
+                    "FN": 15,
+                    "FP": 23,
+                    "IoU": 0.7226277372262774,
+                    "TN": 124863,
+                    "TP": 99,
+                    "n_pred": 122,
+                    "n_ref": 114
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_519.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_519.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8957528957528957,
+                    "FN": 18,
+                    "FP": 9,
+                    "IoU": 0.8111888111888111,
+                    "TN": 124857,
+                    "TP": 116,
+                    "n_pred": 125,
+                    "n_ref": 134
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_521.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_521.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8771929824561403,
+                    "FN": 19,
+                    "FP": 16,
+                    "IoU": 0.78125,
+                    "TN": 124840,
+                    "TP": 125,
+                    "n_pred": 141,
+                    "n_ref": 144
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_539.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_539.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8133704735376045,
+                    "FN": 38,
+                    "FP": 29,
+                    "IoU": 0.6854460093896714,
+                    "TN": 124787,
+                    "TP": 146,
+                    "n_pred": 175,
+                    "n_ref": 184
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_542.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_542.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8676470588235294,
+                    "FN": 142,
+                    "FP": 164,
+                    "IoU": 0.7662337662337663,
+                    "TN": 123691,
+                    "TP": 1003,
+                    "n_pred": 1167,
+                    "n_ref": 1145
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_553.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_553.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9172932330827067,
+                    "FN": 19,
+                    "FP": 3,
+                    "IoU": 0.8472222222222222,
+                    "TN": 124856,
+                    "TP": 122,
+                    "n_pred": 125,
+                    "n_ref": 141
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_562.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_562.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8507462686567164,
+                    "FN": 25,
+                    "FP": 15,
+                    "IoU": 0.7402597402597403,
+                    "TN": 124846,
+                    "TP": 114,
+                    "n_pred": 129,
+                    "n_ref": 139
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_565.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_565.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7799535346830402,
+                    "FN": 115,
+                    "FP": 548,
+                    "IoU": 0.6392818280739935,
+                    "TN": 123162,
+                    "TP": 1175,
+                    "n_pred": 1723,
+                    "n_ref": 1290
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_568.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_568.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7961630695443646,
+                    "FN": 14,
+                    "FP": 71,
+                    "IoU": 0.6613545816733067,
+                    "TN": 124749,
+                    "TP": 166,
+                    "n_pred": 237,
+                    "n_ref": 180
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_575.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_575.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8358974358974359,
+                    "FN": 12,
+                    "FP": 52,
+                    "IoU": 0.7180616740088106,
+                    "TN": 124773,
+                    "TP": 163,
+                    "n_pred": 215,
+                    "n_ref": 175
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_579.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_579.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8408551068883611,
+                    "FN": 113,
+                    "FP": 21,
+                    "IoU": 0.7254098360655737,
+                    "TN": 124512,
+                    "TP": 354,
+                    "n_pred": 375,
+                    "n_ref": 467
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_580.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_580.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8329201784828953,
+                    "FN": 233,
+                    "FP": 104,
+                    "IoU": 0.713678844519966,
+                    "TN": 123823,
+                    "TP": 840,
+                    "n_pred": 944,
+                    "n_ref": 1073
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_583.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_583.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6451612903225806,
+                    "FN": 20,
+                    "FP": 101,
+                    "IoU": 0.47619047619047616,
+                    "TN": 124769,
+                    "TP": 110,
+                    "n_pred": 211,
+                    "n_ref": 130
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_585.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_585.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7763157894736842,
+                    "FN": 33,
+                    "FP": 35,
+                    "IoU": 0.6344086021505376,
+                    "TN": 124814,
+                    "TP": 118,
+                    "n_pred": 153,
+                    "n_ref": 151
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_599.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_599.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8235294117647058,
+                    "FN": 34,
+                    "FP": 11,
+                    "IoU": 0.7,
+                    "TN": 124850,
+                    "TP": 105,
+                    "n_pred": 116,
+                    "n_ref": 139
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_603.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_603.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7896440129449838,
+                    "FN": 14,
+                    "FP": 51,
+                    "IoU": 0.6524064171122995,
+                    "TN": 124813,
+                    "TP": 122,
+                    "n_pred": 173,
+                    "n_ref": 136
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_605.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_605.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8188050930460333,
+                    "FN": 112,
+                    "FP": 73,
+                    "IoU": 0.693200663349917,
+                    "TN": 124397,
+                    "TP": 418,
+                    "n_pred": 491,
+                    "n_ref": 530
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_616.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_616.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8064516129032258,
+                    "FN": 12,
+                    "FP": 24,
+                    "IoU": 0.6756756756756757,
+                    "TN": 124889,
+                    "TP": 75,
+                    "n_pred": 99,
+                    "n_ref": 87
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_617.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_617.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8210526315789474,
+                    "FN": 5,
+                    "FP": 29,
+                    "IoU": 0.6964285714285714,
+                    "TN": 124888,
+                    "TP": 78,
+                    "n_pred": 107,
+                    "n_ref": 83
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_621.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_621.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8219895287958116,
+                    "FN": 45,
+                    "FP": 23,
+                    "IoU": 0.6977777777777778,
+                    "TN": 117275,
+                    "TP": 157,
+                    "n_pred": 180,
+                    "n_ref": 202
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_622.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_622.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7647058823529411,
+                    "FN": 14,
+                    "FP": 66,
+                    "IoU": 0.6190476190476191,
+                    "TN": 124790,
+                    "TP": 130,
+                    "n_pred": 196,
+                    "n_ref": 144
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_625.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_625.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8596491228070176,
+                    "FN": 13,
+                    "FP": 3,
+                    "IoU": 0.7538461538461538,
+                    "TN": 124935,
+                    "TP": 49,
+                    "n_pred": 52,
+                    "n_ref": 62
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_630.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_630.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8112244897959183,
+                    "FN": 6,
+                    "FP": 142,
+                    "IoU": 0.6824034334763949,
+                    "TN": 124534,
+                    "TP": 318,
+                    "n_pred": 460,
+                    "n_ref": 324
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_633.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_633.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8502994011976048,
+                    "FN": 11,
+                    "FP": 14,
+                    "IoU": 0.7395833333333334,
+                    "TN": 124904,
+                    "TP": 71,
+                    "n_pred": 85,
+                    "n_ref": 82
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_638.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_638.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8414634146341463,
+                    "FN": 13,
+                    "FP": 13,
+                    "IoU": 0.7263157894736842,
+                    "TN": 124905,
+                    "TP": 69,
+                    "n_pred": 82,
+                    "n_ref": 82
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_639.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_639.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7672727272727272,
+                    "FN": 18,
+                    "FP": 110,
+                    "IoU": 0.6224188790560472,
+                    "TN": 124661,
+                    "TP": 211,
+                    "n_pred": 321,
+                    "n_ref": 229
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_640.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_640.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8285714285714286,
+                    "FN": 14,
+                    "FP": 34,
+                    "IoU": 0.7073170731707317,
+                    "TN": 124836,
+                    "TP": 116,
+                    "n_pred": 150,
+                    "n_ref": 130
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_646.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_646.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8777244181751016,
+                    "FN": 165,
+                    "FP": 166,
+                    "IoU": 0.7820934825543121,
+                    "TN": 123481,
+                    "TP": 1188,
+                    "n_pred": 1354,
+                    "n_ref": 1353
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_647.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_647.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8819890554365929,
+                    "FN": 508,
+                    "FP": 484,
+                    "IoU": 0.7888912534581826,
+                    "TN": 120301,
+                    "TP": 3707,
+                    "n_pred": 4191,
+                    "n_ref": 4215
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_649.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_649.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8060263653483992,
+                    "FN": 125,
+                    "FP": 81,
+                    "IoU": 0.6750788643533123,
+                    "TN": 124366,
+                    "TP": 428,
+                    "n_pred": 509,
+                    "n_ref": 553
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_651.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_651.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7755102040816326,
+                    "FN": 4,
+                    "FP": 18,
+                    "IoU": 0.6333333333333333,
+                    "TN": 124940,
+                    "TP": 38,
+                    "n_pred": 56,
+                    "n_ref": 42
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_668.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_668.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8604651162790697,
+                    "FN": 24,
+                    "FP": 24,
+                    "IoU": 0.7551020408163265,
+                    "TN": 124804,
+                    "TP": 148,
+                    "n_pred": 172,
+                    "n_ref": 172
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_680.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_680.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.864,
+                    "FN": 11,
+                    "FP": 6,
+                    "IoU": 0.7605633802816901,
+                    "TN": 124929,
+                    "TP": 54,
+                    "n_pred": 60,
+                    "n_ref": 65
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_683.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_683.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8990825688073395,
+                    "FN": 5,
+                    "FP": 6,
+                    "IoU": 0.8166666666666667,
+                    "TN": 124940,
+                    "TP": 49,
+                    "n_pred": 55,
+                    "n_ref": 54
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_690.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_690.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8321167883211679,
+                    "FN": 3,
+                    "FP": 20,
+                    "IoU": 0.7125,
+                    "TN": 124920,
+                    "TP": 57,
+                    "n_pred": 77,
+                    "n_ref": 60
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_691.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_691.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6759259259259259,
+                    "FN": 1,
+                    "FP": 69,
+                    "IoU": 0.5104895104895105,
+                    "TN": 124857,
+                    "TP": 73,
+                    "n_pred": 142,
+                    "n_ref": 74
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_702.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_702.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8547156726768377,
+                    "FN": 90,
+                    "FP": 748,
+                    "IoU": 0.7462912503784438,
+                    "TN": 121697,
+                    "TP": 2465,
+                    "n_pred": 3213,
+                    "n_ref": 2555
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_707.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_707.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8832271762208068,
+                    "FN": 66,
+                    "FP": 44,
+                    "IoU": 0.7908745247148289,
+                    "TN": 124474,
+                    "TP": 416,
+                    "n_pred": 460,
+                    "n_ref": 482
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_710.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_710.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8169934640522876,
+                    "FN": 49,
+                    "FP": 7,
+                    "IoU": 0.6906077348066298,
+                    "TN": 124819,
+                    "TP": 125,
+                    "n_pred": 132,
+                    "n_ref": 174
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_717.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_717.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8547869903802107,
+                    "FN": 305,
+                    "FP": 963,
+                    "IoU": 0.7464,
+                    "TN": 120000,
+                    "TP": 3732,
+                    "n_pred": 4695,
+                    "n_ref": 4037
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_720.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_720.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7327586206896551,
+                    "FN": 34,
+                    "FP": 28,
+                    "IoU": 0.5782312925170068,
+                    "TN": 124853,
+                    "TP": 85,
+                    "n_pred": 113,
+                    "n_ref": 119
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_734.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_734.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7755725190839695,
+                    "FN": 20,
+                    "FP": 127,
+                    "IoU": 0.6334164588528678,
+                    "TN": 124599,
+                    "TP": 254,
+                    "n_pred": 381,
+                    "n_ref": 274
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_741.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_741.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8388625592417062,
+                    "FN": 42,
+                    "FP": 26,
+                    "IoU": 0.7224489795918367,
+                    "TN": 124755,
+                    "TP": 177,
+                    "n_pred": 203,
+                    "n_ref": 219
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_747.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_747.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8195488721804511,
+                    "FN": 11,
+                    "FP": 85,
+                    "IoU": 0.6942675159235668,
+                    "TN": 124686,
+                    "TP": 218,
+                    "n_pred": 303,
+                    "n_ref": 229
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_754.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_754.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8581314878892734,
+                    "FN": 29,
+                    "FP": 12,
+                    "IoU": 0.7515151515151515,
+                    "TN": 124835,
+                    "TP": 124,
+                    "n_pred": 136,
+                    "n_ref": 153
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_758.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_758.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8,
+                    "FN": 15,
+                    "FP": 7,
+                    "IoU": 0.6666666666666666,
+                    "TN": 124934,
+                    "TP": 44,
+                    "n_pred": 51,
+                    "n_ref": 59
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_760.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_760.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.881364969341509,
+                    "FN": 547,
+                    "FP": 343,
+                    "IoU": 0.7878932316491897,
+                    "TN": 120804,
+                    "TP": 3306,
+                    "n_pred": 3649,
+                    "n_ref": 3853
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_764.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_764.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9059390932892379,
+                    "FN": 3267,
+                    "FP": 146,
+                    "IoU": 0.8280517910222177,
+                    "TN": 105151,
+                    "TP": 16436,
+                    "n_pred": 16582,
+                    "n_ref": 19703
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_767.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_767.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.77,
+                    "FN": 37,
+                    "FP": 9,
+                    "IoU": 0.6260162601626016,
+                    "TN": 124877,
+                    "TP": 77,
+                    "n_pred": 86,
+                    "n_ref": 114
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_770.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_770.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8379446640316206,
+                    "FN": 24,
+                    "FP": 17,
+                    "IoU": 0.7210884353741497,
+                    "TN": 124853,
+                    "TP": 106,
+                    "n_pred": 123,
+                    "n_ref": 130
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_776.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_776.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7627118644067796,
+                    "FN": 30,
+                    "FP": 26,
+                    "IoU": 0.6164383561643836,
+                    "TN": 124854,
+                    "TP": 90,
+                    "n_pred": 116,
+                    "n_ref": 120
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_781.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_781.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8653846153846154,
+                    "FN": 6,
+                    "FP": 8,
+                    "IoU": 0.7627118644067796,
+                    "TN": 124941,
+                    "TP": 45,
+                    "n_pred": 53,
+                    "n_ref": 51
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_796.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_796.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7718277066356228,
+                    "FN": 186,
+                    "FP": 206,
+                    "IoU": 0.628436018957346,
+                    "TN": 123945,
+                    "TP": 663,
+                    "n_pred": 869,
+                    "n_ref": 849
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_802.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_802.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8709677419354839,
+                    "FN": 2,
+                    "FP": 30,
+                    "IoU": 0.7714285714285715,
+                    "TN": 124860,
+                    "TP": 108,
+                    "n_pred": 138,
+                    "n_ref": 110
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_811.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_811.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8062015503875969,
+                    "FN": 32,
+                    "FP": 43,
+                    "IoU": 0.6753246753246753,
+                    "TN": 124769,
+                    "TP": 156,
+                    "n_pred": 199,
+                    "n_ref": 188
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_816.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_816.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.727580372250423,
+                    "FN": 41,
+                    "FP": 120,
+                    "IoU": 0.5718085106382979,
+                    "TN": 124624,
+                    "TP": 215,
+                    "n_pred": 335,
+                    "n_ref": 256
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_824.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_824.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.850342589253516,
+                    "FN": 396,
+                    "FP": 19,
+                    "IoU": 0.7396486825595985,
+                    "TN": 123406,
+                    "TP": 1179,
+                    "n_pred": 1198,
+                    "n_ref": 1575
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_831.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_831.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8473895582329317,
+                    "FN": 47,
+                    "FP": 29,
+                    "IoU": 0.735191637630662,
+                    "TN": 124713,
+                    "TP": 211,
+                    "n_pred": 240,
+                    "n_ref": 258
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_840.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_840.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.891170431211499,
+                    "FN": 78,
+                    "FP": 28,
+                    "IoU": 0.8037037037037037,
+                    "TN": 124460,
+                    "TP": 434,
+                    "n_pred": 462,
+                    "n_ref": 512
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_850.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_850.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8449955713020372,
+                    "FN": 90,
+                    "FP": 85,
+                    "IoU": 0.7315950920245399,
+                    "TN": 124348,
+                    "TP": 477,
+                    "n_pred": 562,
+                    "n_ref": 567
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_859.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_859.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8824383164005806,
+                    "FN": 27,
+                    "FP": 135,
+                    "IoU": 0.7896103896103897,
+                    "TN": 124230,
+                    "TP": 608,
+                    "n_pred": 743,
+                    "n_ref": 635
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_869.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_869.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.82,
+                    "FN": 11,
+                    "FP": 7,
+                    "IoU": 0.6949152542372882,
+                    "TN": 124941,
+                    "TP": 41,
+                    "n_pred": 48,
+                    "n_ref": 52
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_876.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_876.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6691588785046729,
+                    "FN": 132,
+                    "FP": 45,
+                    "IoU": 0.5028089887640449,
+                    "TN": 124644,
+                    "TP": 179,
+                    "n_pred": 224,
+                    "n_ref": 311
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_894.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_894.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8255465066438062,
+                    "FN": 1828,
+                    "FP": 207,
+                    "IoU": 0.7029197080291971,
+                    "TN": 118150,
+                    "TP": 4815,
+                    "n_pred": 5022,
+                    "n_ref": 6643
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_896.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_896.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8186046511627907,
+                    "FN": 5,
+                    "FP": 34,
+                    "IoU": 0.6929133858267716,
+                    "TN": 124873,
+                    "TP": 88,
+                    "n_pred": 122,
+                    "n_ref": 93
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_905.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_905.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.821664464993395,
+                    "FN": 92,
+                    "FP": 43,
+                    "IoU": 0.6973094170403588,
+                    "TN": 124554,
+                    "TP": 311,
+                    "n_pred": 354,
+                    "n_ref": 403
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_910.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_910.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8143322475570033,
+                    "FN": 36,
+                    "FP": 21,
+                    "IoU": 0.6868131868131868,
+                    "TN": 124818,
+                    "TP": 125,
+                    "n_pred": 146,
+                    "n_ref": 161
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_920.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_920.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.814498933901919,
+                    "FN": 43,
+                    "FP": 44,
+                    "IoU": 0.6870503597122302,
+                    "TN": 124722,
+                    "TP": 191,
+                    "n_pred": 235,
+                    "n_ref": 234
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_928.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_928.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9120879120879121,
+                    "FN": 12,
+                    "FP": 4,
+                    "IoU": 0.8383838383838383,
+                    "TN": 124901,
+                    "TP": 83,
+                    "n_pred": 87,
+                    "n_ref": 95
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_931.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_931.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7960046100653092,
+                    "FN": 420,
+                    "FP": 111,
+                    "IoU": 0.6611359285258456,
+                    "TN": 123433,
+                    "TP": 1036,
+                    "n_pred": 1147,
+                    "n_ref": 1456
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_939.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_939.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7216494845360825,
+                    "FN": 3,
+                    "FP": 24,
+                    "IoU": 0.5645161290322581,
+                    "TN": 124938,
+                    "TP": 35,
+                    "n_pred": 59,
+                    "n_ref": 38
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_941.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_941.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8299319727891157,
+                    "FN": 41,
+                    "FP": 9,
+                    "IoU": 0.7093023255813954,
+                    "TN": 124828,
+                    "TP": 122,
+                    "n_pred": 131,
+                    "n_ref": 163
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_949.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_949.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8034365279217893,
+                    "FN": 385,
+                    "FP": 942,
+                    "IoU": 0.6714533300321862,
+                    "TN": 120961,
+                    "TP": 2712,
+                    "n_pred": 3654,
+                    "n_ref": 3097
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_955.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_955.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8187134502923976,
+                    "FN": 24,
+                    "FP": 7,
+                    "IoU": 0.693069306930693,
+                    "TN": 124899,
+                    "TP": 70,
+                    "n_pred": 77,
+                    "n_ref": 94
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_958.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_958.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8241758241758241,
+                    "FN": 24,
+                    "FP": 8,
+                    "IoU": 0.7009345794392523,
+                    "TN": 124893,
+                    "TP": 75,
+                    "n_pred": 83,
+                    "n_ref": 99
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_969.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_969.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7886710239651417,
+                    "FN": 59,
+                    "FP": 38,
+                    "IoU": 0.6510791366906474,
+                    "TN": 124722,
+                    "TP": 181,
+                    "n_pred": 219,
+                    "n_ref": 240
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_973.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_973.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7471264367816092,
+                    "FN": 17,
+                    "FP": 27,
+                    "IoU": 0.5963302752293578,
+                    "TN": 124891,
+                    "TP": 65,
+                    "n_pred": 92,
+                    "n_ref": 82
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_974.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_974.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8695652173913043,
+                    "FN": 46,
+                    "FP": 5,
+                    "IoU": 0.7692307692307693,
+                    "TN": 124779,
+                    "TP": 170,
+                    "n_pred": 175,
+                    "n_ref": 216
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_975.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_975.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.71875,
+                    "FN": 7,
+                    "FP": 29,
+                    "IoU": 0.5609756097560976,
+                    "TN": 124918,
+                    "TP": 46,
+                    "n_pred": 75,
+                    "n_ref": 53
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_976.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_976.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.832,
+                    "FN": 10,
+                    "FP": 11,
+                    "IoU": 0.7123287671232876,
+                    "TN": 124927,
+                    "TP": 52,
+                    "n_pred": 63,
+                    "n_ref": 62
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_977.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_977.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7313432835820896,
+                    "FN": 32,
+                    "FP": 4,
+                    "IoU": 0.5764705882352941,
+                    "TN": 124915,
+                    "TP": 49,
+                    "n_pred": 53,
+                    "n_ref": 81
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_980.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_980.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8503937007874016,
+                    "FN": 2,
+                    "FP": 17,
+                    "IoU": 0.7397260273972602,
+                    "TN": 124927,
+                    "TP": 54,
+                    "n_pred": 71,
+                    "n_ref": 56
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_985.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_985.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7692307692307693,
+                    "FN": 22,
+                    "FP": 65,
+                    "IoU": 0.625,
+                    "TN": 124768,
+                    "TP": 145,
+                    "n_pred": 210,
+                    "n_ref": 167
+                }
+            },
+            "prediction_file": "E:\\NITK Datasets\\nnUNet_results\\Dataset501_Node21\\nnUNetTrainer__nnUNetPlans__3d_fullres\\fold_5\\validation\\case_990.nii.gz",
+            "reference_file": "E:\\NITK Datasets\\nnUNet_preprocessed\\Dataset501_Node21\\gt_segmentations\\case_990.nii.gz"
+        }
+    ]
+}

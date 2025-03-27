@@ -71,7 +71,7 @@ def patching(data: dict):
             data[parent] = True
             continue
         out_path = os.path.join(OUTPUT_DIR, parent)
-        sitk.WriteImage(blank_image, f"{out_path}_seg.mhd")
+        sitk.WriteImage(blank_image, f"{out_path}")
     with open(os.path.join(OUTPUT_DIR, "meta.json"), 'w') as f:
         json.dump(data, f)
 
