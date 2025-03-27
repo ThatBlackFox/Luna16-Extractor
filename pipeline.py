@@ -1,6 +1,7 @@
 import subprocess
 import sys
 import os
+from utils.install_torch_cuda import install_pytorch
 
 
 args = sys.argv
@@ -20,6 +21,8 @@ if '-h' in args:
 
     exit(0)
 
+
+install_pytorch()
 MAIN_DATA_DIR = args[args.index('-d')+1]
 MAIN_OUTPUT_DIR = args[args.index('-o')+1]
 
