@@ -68,7 +68,7 @@ def patching(data: dict):
             except ValueError as e:
                 print(f"Warning: Node - {index} @ {parent} failed to patch")
         if empty:
-            data[parent.split('.')[0]] = True
+            data['.'.join(parent.split('.')[:-1])] = True
             continue
         out_path = os.path.join(OUTPUT_DIR, parent)
         sitk.WriteImage(blank_image, f"{out_path}.mhd")
