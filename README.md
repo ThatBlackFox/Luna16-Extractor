@@ -22,5 +22,5 @@ python pipeline.py -d /path/to/data -o /path/to/output -c /path/to/annotations.c
 !git clone https://github.com/ThatBlackFox/Luna16-Extractor.git
 %cd Luna16-Extractor
 !pip install -r requirements.txt
-!python pipeline -d <Subset DIR> -o <OUTPUT DIR> -c <ANNOTATIONS_PATH>
+!python pipeline.py -d <Subset DIR> -o <OUTPUT DIR> -c annotations.csv
 ```
