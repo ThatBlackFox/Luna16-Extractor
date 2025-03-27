@@ -161,7 +161,6 @@ def process_mhd_folder_raycast(folder_path, output_dir, meta_path):
 def process_mhd_folder_max(folder_path, output_dir, meta_path):
     """Process all MHD files in the given folder except those listed in meta.json."""
     # meta_path = os.path.join(folder_path)
-
     # meta_path =  "meta.json"
 
     excluded_files = set()
@@ -172,10 +171,10 @@ def process_mhd_folder_max(folder_path, output_dir, meta_path):
         
         # output_dir = os.path.join(folder_path, "drr_outputs")
         os.makedirs(output_dir, exist_ok=True)
-
     
         for file in os.listdir(folder_path):
-            if file.endswith(".mhd") and file[:-4] not in excluded_files:
+
+            if file.endswith(".mhd") and '.'.join(file.split('.')[:-2]) not in excluded_files:
                 file_path = os.path.join(folder_path, file)
                 print(f"Processing: {file}")
 
