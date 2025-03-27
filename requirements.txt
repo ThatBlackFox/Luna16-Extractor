@@ -8,11 +8,7 @@ scikit-image
 scikit-learn
 matplotlib
 requests
-# tabulate
-# concurrentlog
 nnunetv2
-# sys
-# subprocesss
 
 # Install PyTorch separately based on your CUDA version:
 # For CUDA 11.8: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
