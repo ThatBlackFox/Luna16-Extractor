@@ -1,18 +1,26 @@
-# CT Patch Extractor - Help
+# CT to X-Ray DRR Pipeline  
 
-## Usage:
-  python dataset_maker.py -d <data_directory> -o <output_directory> [-c <csv_file>]<br>
+## Usage  
+```bash
+python pipeline.py -d <MAIN_DATA_DIR> -o <MAIN_OUTPUT_DIR> -c <CSV_PATH>
+```
 
-## Options:
-  -d    Path to the directory containing full chest CT scans (.mhd)  [Required]<br>
-  -o    Output directory to store extracted CT patches                [Required]<br>
-  -c    Path to the CSV file containing annotations (optional)<br>
+## Arguments
+- -d → Path to the main data directory for a subset.
 
-## Example Usage:
-  python dataset_maker.py -d /path/to/ct_scans -o /path/to/output <br>
-  python dataset_maker.py -d /path/to/ct_scans -o /path/to/output -c annotations.csv
+- -o → Path to the output directory where results will be stored.
 
-## Description:
-  This script extracts patches from chest CT scans stored in the specified directory.<br>
-  If an annotation CSV file is provided, patches will be extracted based on its coordinates.<br>
-  Else the script expects an annotation CSV file in the data directory.
+- -c → Path to the annotations CSV file (annotations.csv) of the LUNA16 dataset.
+
+## Example
+```bash
+python pipeline.py -d /path/to/data -o /path/to/output -c /path/to/annotations.csv
+```
+
+## Code for jupyter notebook
+```bash
+!git clone https://github.com/ThatBlackFox/Luna16-Extractor.git
+%cd Luna16-Extractor
+!pip install -r requirements.txt
+!python pipeline -d <Subset DIR> -o <OUTPUT DIR> -c <ANNOTATIONS_PATH>
+```
