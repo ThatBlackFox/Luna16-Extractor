@@ -8,4 +8,4 @@ scikit-image
 scikit-learn
 matplotlib
 requests
-nnunetv2
+#nnunetv2
