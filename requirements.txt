@@ -8,4 +8,5 @@ scikit-image
 scikit-learn
 matplotlib
 requests
+opencv-python
 #nnunetv2
