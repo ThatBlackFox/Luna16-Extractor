@@ -22,6 +22,9 @@ if '-h' in args:
 
 MAIN_DATA_DIR = args[args.index('-d')+1]
 MAIN_OUTPUT_DIR = args[args.index('-o')+1]
+
+os.makedirs(MAIN_OUTPUT_DIR, exist_ok=True)
+
 CSV_PATH = args[args.index('-c')+1]
 PATCH_MASK_DIR = os.path.join(MAIN_OUTPUT_DIR, 'patch_dataset')
 INFERENCE_DIR = os.path.join(MAIN_OUTPUT_DIR, 'infered_dataset')
