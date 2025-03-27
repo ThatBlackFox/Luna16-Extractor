@@ -86,7 +86,7 @@ def process_ct_folder_drr(folder_path, output_dir, meta_path):
     # meta_path = os.path.join(folder_path)
 
     # meta_path =  "meta.json"  
-    print("reached process ct")
+    # print("reached process ct")
     excluded_files = set()
     if os.path.exists(meta_path):
         with open(meta_path, "r") as meta_file:

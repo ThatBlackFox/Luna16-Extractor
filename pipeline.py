@@ -12,17 +12,21 @@ PATCH_MASK_DIR = os.path.join(MAIN_OUTPUT_DIR, 'patch_dataset')
 INFERENCE_DIR = os.path.join(MAIN_OUTPUT_DIR, 'infered_dataset')
 FULL_MASK_DIR = os.path.join(MAIN_OUTPUT_DIR, 'full_mask_dataset')
 META_PATCH_DATASET_PATH = os.path.join(PATCH_MASK_DIR, 'meta.json')
-META__FULL_MASK_PATH=os.path.join(FULL_MASK_DIR,"meta.json")
+META_FULL_MASK_PATH=os.path.join(FULL_MASK_DIR,"meta.json")
 XRAY_DIR = os.path.join(MAIN_OUTPUT_DIR, 'xray_dataset')
 
 paths = [PATCH_MASK_DIR, INFERENCE_DIR, FULL_MASK_DIR, XRAY_DIR]
 for path in paths:
     os.makedirs(path, exist_ok=True)
 
-extractor = f"python dataset_maker.py -d \"{MAIN_DATA_DIR}\" -o \"{PATCH_MASK_DIR}\" -c \"{CSV_PATH}\""
-infer = f"python data_inference_nnunet.py -i \"{PATCH_MASK_DIR}\" -o \"{INFERENCE_DIR}\""
-patcher = f"python dataset_patcher.py -d \"{MAIN_DATA_DIR}\" -o \"{FULL_MASK_DIR}\" -r \"{INFERENCE_DIR}\" -m \"{META_PATCH_DATASET_PATH}\""
-drrer = f"python drrer.py -d \"{MAIN_DATA_DIR}\" -m \"{FULL_MASK_DIR}\" -o \"{XRAY_DIR}\" --meta \"{META__FULL_MASK_PATH}\""
+# extractor = f"python dataset_maker.py -d \"{MAIN_DATA_DIR}\" -o \"{PATCH_MASK_DIR}\" -c \"{CSV_PATH}\""
+# infer = f"python data_inference_nnunet.py -i \"{PATCH_MASK_DIR}\" -o \"{INFERENCE_DIR}\""
+# patcher = f"python dataset_patcher.py -d \"{MAIN_DATA_DIR}\" -o \"{FULL_MASK_DIR}\" -r \"{INFERENCE_DIR}\" -m \"{META_PATCH_DATASET_PATH}\""
+# drrer = f"python drrer.py -d \"{MAIN_DATA_DIR}\" -m \"{FULL_MASK_DIR}\" -o \"{XRAY_DIR}\" --meta \"{META__FULL_MASK_PATH}\""
+extractor = ("python", "dataset_maker.py", "-d", f"{MAIN_DATA_DIR}", "-o", f"{PATCH_MASK_DIR}", "-c", f"{CSV_PATH}")
+infer = ("python", "data_inference_nnunet.py", "-i", f"{PATCH_MASK_DIR}", "-o", f"{INFERENCE_DIR}")
+patcher = ("python", "dataset_patcher.py", "-d", f"{MAIN_DATA_DIR}", "-o", f"{FULL_MASK_DIR}", "-r", f"{INFERENCE_DIR}", "-m", f"{META_PATCH_DATASET_PATH}")
+drrer = ("python", "drrer.py", "-d", f"{MAIN_DATA_DIR}", "-m", f"{FULL_MASK_DIR}", "-o", f"{XRAY_DIR}", "--meta", f"{META_FULL_MASK_PATH}")
 
 print("Starting Pipeline")
 print("Starting Extraction")
