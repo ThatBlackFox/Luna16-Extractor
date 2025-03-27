@@ -37,8 +37,8 @@ paths = [PATCH_MASK_DIR, INFERENCE_DIR, FULL_MASK_DIR, XRAY_DIR, MAIN_OUTPUT_DIR
 for path in paths:
     os.makedirs(path, exist_ok=True)
 
-extractor = ("python", "dataset_maker.py", "-d" f"\"{MAIN_DATA_DIR}\"", "-o", f"\"{PATCH_MASK_DIR}\"", "-c", f"\"{CSV_PATH}\"")
-infer = ("python", "data_inference_vnet.py", "-i" f"\"{PATCH_MASK_DIR}\"", "-o", f"\"{INFERENCE_DIR}\"")
+extractor = ("python", "dataset_maker.py", "-d", f"\"{MAIN_DATA_DIR}\"", "-o", f"\"{PATCH_MASK_DIR}\"", "-c", f"\"{CSV_PATH}\"")
+infer = ("python", "data_inference_vnet.py", "-i", f"\"{PATCH_MASK_DIR}\"", "-o", f"\"{INFERENCE_DIR}\"")
 patcher = ("python", "dataset_patcher.py", "-d", f"\"{MAIN_DATA_DIR}\"", "-o", f"\"{FULL_MASK_DIR}\"", "-r", f"\"{INFERENCE_DIR}\"", "-m", f"\"{META_PATCH_DATASET_PATH}\"")
 drrer = ("python", "drrer.py", "-d", f"\"{MAIN_DATA_DIR}\"", "-m", f"\"{FULL_MASK_DIR}\"", "-o", f"\"{XRAY_DIR}\"", "--meta", f"\"{META_FULL_MASK_PATH}\"")
 
