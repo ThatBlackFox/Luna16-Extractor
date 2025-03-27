@@ -49,6 +49,3 @@ process.wait()
 
 print("Finished DRR")
 print("Pipeline execution completed.")
-
-
-

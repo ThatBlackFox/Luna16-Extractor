@@ -1,0 +1,10 @@
+numpy
+tqdm
+nibabel
+SimpleITK
+pandas
+scipy
+scikit-image
+scikit-learn
+matplotlib
+requests
