@@ -5,6 +5,8 @@ import cv2
 import json
 from scipy.ndimage import map_coordinates
 import os
+import torch
+import torch.nn.functional as F
 
 def load_mhd_image(mhd_path):
     """
@@ -71,38 +73,48 @@ def generate_drr(ct_array, projection_axis=0, output_size=(512, 512)):
     return resized_drr
 
 
-def raycast(image, detector_size=(512, 512), source_to_detector_distance=1300):
-    """
-    Generate a coronal DRR using ray-casting with numerical stability fixes.
-    """
-    np_image = sitk.GetArrayFromImage(image)  # Shape (Z, Y, X)
-    depth, height, width = np_image.shape
+def raycast(image, detector_size=(512, 512), source_to_detector_distance=1300,device='cuda:1'):
+  
+    np_image = sitk.GetArrayFromImage(image) 
+    np_image = np.clip(np_image, -600, 100) 
+    np_image = (np_image - np.min(np_image)) / (np.max(np_image) - np.min(np_image))  
 
-    np_image = np.clip(np_image, a_min=-600, a_max=100)  # Keep relevant HU range
-    np_image = np_image = (np_image - np.min(np_image)) / (np.max(np_image) - np.min(np_image))  # Scale to [0, 1]
+   
+    tensor_image = torch.tensor(np_image, dtype=torch.float32, device=device).unsqueeze(0).unsqueeze(0)
 
-    drr = np.zeros(detector_size, dtype=np.float32)
-
-    z_coords = np.linspace(0, depth - 1, detector_size[0])
-    x_coords = np.linspace(0, width - 1, detector_size[1])
-    zz, xx = np.meshgrid(z_coords, x_coords, indexing="ij")
     
+    depth, height, width = np_image.shape
+    z_coords = torch.linspace(0, depth - 1, detector_size[0], device=device)
+    x_coords = torch.linspace(0, width - 1, detector_size[1], device=device)
+    zz, xx = torch.meshgrid(z_coords, x_coords, indexing="ij")
+
+  
+    zz = zz / (depth - 1) * 2 - 1  
+    xx = xx / (width - 1) * 2 - 1
+
+    
+    grid = torch.stack((xx, zz), dim=-1).unsqueeze(0)  
+
+    
+    drr = torch.zeros(detector_size, dtype=torch.float32, device=device)
+
+   
     for y in range(height):
-        slice_2d = np_image[:, y, :]
-        interp_values = map_coordinates(slice_2d, [zz, xx], order=3)
-        drr += interp_values
+        slice_2d = tensor_image[:, :, :, y, :]  
+
+        
+        interp_values = F.grid_sample(slice_2d, grid, align_corners=True, mode="bilinear")
+
+        drr += interp_values.squeeze() 
 
     drr = drr / height  
-    drr = np.exp(-drr / source_to_detector_distance)
+    drr = torch.exp(-drr / source_to_detector_distance)  
 
-    drr = np.nan_to_num(drr, nan=0.0, posinf=0.0, neginf=0.0)
 
-    if np.ptp(drr) > 0:
-        drr = (drr - np.min(drr)) / np.ptp(drr)
-    else:
-        drr = np.zeros_like(drr)
+    drr = (drr - torch.min(drr)) / (torch.max(drr) - torch.min(drr) + 1e-6)
 
-    drr = 1.0 - drr  
+    drr = 1.0 - drr
+    drr=drr.cpu().numpy() 
     drr = enhance_contrast(drr)
     drr = np.flipud(drr)
 
