@@ -52,6 +52,7 @@ def nnunet_inference():
         "-d", "Dataset501_Node21",  # Replace with the actual dataset ID used for training
         "-c", "3d_fullres",
     ]
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     os.environ["nnUNet_raw"] = r".\nnUNet_raw_data"
     os.environ["nnUNet_results"] = r".\nnUNet_results"
     os.environ["nnUNet_preprocessed"] = r".\nnUNet_preprocessed"
